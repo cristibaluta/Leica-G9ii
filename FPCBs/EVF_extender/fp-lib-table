@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "G9_Connectors")(type "KiCad")(uri "/Users/cristianbaluta/Documents/Leica G9II/G9_Connectors.pretty")(options "")(descr ""))
+  (lib (name "USBC_12_Footprint")(type "KiCad")(uri "/Users/cristianbaluta/Documents/Leica G9II/FPCBs/USBC_12_Footprint.pretty")(options "")(descr ""))
+)
