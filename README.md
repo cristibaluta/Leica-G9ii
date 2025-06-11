@@ -14,6 +14,8 @@ This project is an attempt to make a beautiful small camera from a Lumix G9II bo
 
 If you are an expert in any relevant field and see mistakes you are welcome to correct them or open issues for discussion, my only qualification to do this is that I was into electronics a long time ago.
 
+<img src="images/front.jpg" width="600"/>
+
 ---
 
 ## 🛠️ What's Included
@@ -57,8 +59,6 @@ If you are an expert in any relevant field and see mistakes you are welcome to c
 10. Install wifi module
 11. Assemble
 12. Add leatherete
-
-<img src="images/leica_mod_front.jpg" width="600"/>
 
 ---
 
