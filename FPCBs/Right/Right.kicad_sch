@@ -4513,6 +4513,18 @@
 		(uuid "0c53c529-e206-4763-b18e-64c338a5afba")
 	)
 	(junction
+		(at 157.48 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a3b379-d584-4d52-8d10-d31a7aceadde")
+	)
+	(junction
+		(at 157.48 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14bf5ea5-1290-493d-890f-d23eb6086855")
+	)
+	(junction
 		(at 196.85 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4591,12 +4603,6 @@
 		(uuid "82c81d55-492f-4216-b3a5-1b39c769dc68")
 	)
 	(junction
-		(at 157.48 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "835c3900-a91b-43c8-af8b-c1a3cc9a9817")
-	)
-	(junction
 		(at 132.08 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4637,12 +4643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e458e2c3-315e-459b-aad0-559898e3c9de")
-	)
-	(junction
-		(at 157.48 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7ccf558-e77b-4e1e-9996-18e317cf0f58")
 	)
 	(wire
 		(pts
@@ -4886,6 +4886,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 110.49) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4ccf2e-5e8a-4867-aec7-f67ae60edd9a")
+	)
+	(wire
+		(pts
 			(xy 78.74 80.01) (xy 78.74 81.28)
 		)
 		(stroke
@@ -4893,6 +4903,16 @@
 			(type default)
 		)
 		(uuid "2fd58307-d724-44eb-805f-c52376fcd073")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316f7870-4dd7-465f-be64-135a5433ed04")
 	)
 	(wire
 		(pts
@@ -4993,16 +5013,6 @@
 			(type default)
 		)
 		(uuid "3fbe8cc9-a5ef-4c48-ab1e-d89c93810fb7")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 157.48 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b6bdd1-4b03-42a0-a412-d72d1d4de8db")
 	)
 	(wire
 		(pts
@@ -5706,16 +5716,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0335fd4-7091-4fa0-9dd8-2329c028d167")
-	)
-	(wire
-		(pts
 			(xy 78.74 97.79) (xy 78.74 116.84)
 		)
 		(stroke
@@ -6359,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:FPC-2Rows-35Pins-0.23mm"
 			(at 85.09 77.47 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Kodenshi_SG105"
+		(property "Footprint" "Leica-G9ii:Opto_Switch"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -7039,7 +7039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Switch_Modes"
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -7140,7 +7140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Kodenshi_SG105"
+		(property "Footprint" "Leica-G9ii:Opto_Switch"
 			(at 161.29 147.32 0)
 			(effects
 				(font
@@ -7287,7 +7287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+		(property "Footprint" "Leica-G9ii:Switch_Shutter_1"
 			(at 162.56 105.41 0)
 			(effects
 				(font
@@ -7359,7 +7359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Battery_Cell"
 			(at 60.96 107.696 90)
 			(effects
 				(font
@@ -7639,7 +7639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Connector-4Pins"
 			(at 52.07 77.47 0)
 			(effects
 				(font
@@ -7714,7 +7714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:2nd_dial"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -7785,7 +7785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Connector-4Pins"
 			(at 40.64 77.47 0)
 			(effects
 				(font

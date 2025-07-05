@@ -1,0 +1,117 @@
+(footprint "Battery_Cell"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
+	(tags "refective opto couple photo coupler")
+	(property "Reference" "REF**"
+		(at -0.01 -1.38 0)
+		(layer "F.SilkS")
+		(uuid "66289aaa-fdf3-4641-8bc3-079253750b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "b7183a23-560f-4d3a-bd9b-8cac5f9aa653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcaf6e7f-a748-4369-aeb0-c1be1de72b82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07c418d6-ff58-4e4f-b9b1-d3fc4576e23a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d091683a-cd67-48b1-88e6-702848356c13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.4 -3.75)
+		(end 2.4 3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 0.05 0)
+		(layer "F.Fab")
+		(uuid "cd381f09-516f-45b0-a8c5-a5bc1a0fd927")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.7 2.7)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "3986b517-7672-43c4-9997-4f028188f8d6")
+	)
+	(pad "2" smd roundrect
+		(at -0.7 2.7)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "bc6ef0b5-ebe5-4019-b8a5-448ef35812cc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
