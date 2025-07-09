@@ -6,7 +6,7 @@
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
 	(property "Reference" "REF**"
-		(at 0.04 -0.82 0)
+		(at -0.01 1.35 0)
 		(layer "F.SilkS")
 		(uuid "66289aaa-fdf3-4641-8bc3-079253750b95")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "2nd_dial"
-		(at 0 4.8 0)
+		(at 0.01 6.34 0)
 		(layer "F.Fab")
 		(uuid "b7183a23-560f-4d3a-bd9b-8cac5f9aa653")
 		(effects
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -4.75 -3.75)
-		(end 4.75 3.75)
+		(start -4.75 -2.5)
+		(end 4.75 5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -79,7 +79,7 @@
 		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.02 0.75 0)
+		(at -0.01 2.51 0)
 		(layer "F.Fab")
 		(uuid "cd381f09-516f-45b0-a8c5-a5bc1a0fd927")
 		(effects
@@ -90,36 +90,36 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.82 2.9)
+		(at -1.82 4.18)
 		(size 1.4 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "f16a0deb-c689-440b-9445-349e0f879826")
 	)
 	(pad "2" smd roundrect
-		(at 0 2.9)
+		(at 0 4.18)
 		(size 1.4 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "bc6ef0b5-ebe5-4019-b8a5-448ef35812cc")
 	)
 	(pad "3" smd roundrect
-		(at 1.82 2.9)
+		(at 1.82 4.18)
 		(size 1.4 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "3986b517-7672-43c4-9997-4f028188f8d6")
 	)
-	(pad "?" smd roundrect
-		(at -4 -0.95)
-		(size 1.4 2)
+	(pad "SH" smd roundrect
+		(at -3.9 0)
+		(size 1.65 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "acdafb09-6eeb-453d-ba5d-aadd4185b4db")
 	)
-	(pad "?" smd roundrect
-		(at 4 -0.95)
-		(size 1.4 2)
+	(pad "SH" smd roundrect
+		(at 3.9 0)
+		(size 1.65 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "23c973fb-4afe-4668-a8a0-4076c27642ad")

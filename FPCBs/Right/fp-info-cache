@@ -1,4 +1,4 @@
-24198200573549769
+24222696835703659
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65246,6 +65246,104 @@ Yellow 5381 Series LED
 0
 2
 2
+Leica-G9ii
+2nd_dial
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+5
+4
+Leica-G9ii
+Battery_Cell
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+2
+2
+Leica-G9ii
+Connector-2Rows-61Pins-0.20mm
+Hirose 0.30mm Pitch FFC/FPC, FH26-61S-0.3SHW, 61 Circuits (https://www.hirose.com/en/product/document?clcode=&productname=&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en), generated with kicad-footprint-generator
+connector Hirose  horizontal
+0
+63
+61
+Leica-G9ii
+Connector-4Pins
+Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator
+connector Molex  top entry
+0
+4
+4
+Leica-G9ii
+FPC-2Rows-35Pins-0.23mm
+Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
+connector JAE  top entry
+0
+35
+35
+Leica-G9ii
+FPC-2Rows-61Pins-0.20mm
+Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
+connector JAE  top entry
+0
+61
+61
+Leica-G9ii
+Opto_Switch
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+4
+Leica-G9ii
+Power_Connector_Battery
+
+
+0
+12
+4
+Leica-G9ii
+Power_Connector_Camera
+
+
+0
+5
+5
+Leica-G9ii
+Switch_Driving_Modes
+
+
+0
+8
+7
+Leica-G9ii
+Switch_Modes
+
+
+0
+12
+11
+Leica-G9ii
+Switch_Power
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+3
+Leica-G9ii
+Switch_Shutter_1
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+3
+Leica-G9ii
+USB-C-12-Pin-MidMount
+
+
+0
+16
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
