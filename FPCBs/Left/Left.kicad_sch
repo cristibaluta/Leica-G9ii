@@ -1282,7 +1282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
+		(property "Footprint" "Leica-G9ii:FPC-2Rows-27Pins-0.23mm"
 			(at 53.34 101.6 0)
 			(effects
 				(font
