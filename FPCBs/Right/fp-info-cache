@@ -1,4 +1,4 @@
-24222696835703659
+24224452115155263
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65274,6 +65274,13 @@ connector Molex  top entry
 0
 4
 4
+Leica-G9ii
+FPC-2Rows-27Pins-0.23mm
+Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
+connector JAE  top entry
+0
+35
+35
 Leica-G9ii
 FPC-2Rows-35Pins-0.23mm
 Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
