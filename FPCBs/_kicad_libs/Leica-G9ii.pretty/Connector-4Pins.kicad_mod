@@ -1,14 +1,14 @@
 (footprint "Connector-4Pins"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex  top entry")
 	(property "Reference" "REF**"
 		(at 0 -2.61 0)
 		(layer "F.SilkS")
-		(uuid "a9022723-a761-495b-9557-ed88eed93faf")
+		(uuid "28f0f706-65b3-46d4-aaf2-16ab15f59e0d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,23 +19,10 @@
 	(property "Value" "Connector-4Pins"
 		(at -0.02 4.25 0)
 		(layer "F.Fab")
-		(uuid "a91981ee-ef8e-4e80-b93b-66dfcedb47c6")
+		(uuid "fc31130f-77a4-4524-9b89-6ee471654171")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bab3aa8a-912d-486e-8c05-032791959eaa")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -45,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6de26f5d-c1e7-442c-bb17-d7d5d9b4bfa0")
+		(uuid "eea1966f-9eff-49ec-99e7-7351f6f85c19")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "33bd07f2-92df-4d27-9035-a4be600b27ae")
+		(uuid "e2a19f78-fc87-47da-b936-b647f3a4905b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,9 +61,20 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c2fa30e2-c7cb-495b-b49f-57f3cdbbd8a8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "baefc392-33b0-47ea-86b7-c48e1d7be07d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.06 3.05 0)
@@ -89,30 +87,83 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -0.73 -0.85)
-		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+	(pad "1" smd custom
+		(at -0.73 -1.065)
+		(size 0.6 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.285) (xy 0.3 -0.285) (xy 0.3 0.285) (xy 0.13 0.405) (xy 0 0.555) (xy -0.09 0.715) (xy -0.3 0.715)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
 		(uuid "97566951-a160-476e-b76d-116ae50f664a")
 	)
-	(pad "2" smd rect
-		(at -0.72 0.86)
-		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7779f1d3-cdbc-4497-87e5-09fcf0e5e186")
+	(pad "2" smd custom
+		(at -0.73 1.065 180)
+		(size 0.6 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.28) (xy 0.3 -0.28) (xy 0.3 0.72) (xy 0.1 0.725) (xy 0.01 0.55) (xy -0.11 0.415) (xy -0.3 0.28)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "a681713a-5e54-422f-b415-0be6fe520da4")
 	)
-	(pad "3" smd rect
-		(at 0.7 0.84)
-		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "6a1e0dab-7ae7-44bb-818e-7ec7cc537b38")
+	(pad "3" smd custom
+		(at 0.73 1.065 180)
+		(size 0.6 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.285) (xy 0.3 -0.285) (xy 0.3 0.285) (xy 0.13 0.405) (xy 0 0.555) (xy -0.09 0.715) (xy -0.3 0.715)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "d7e78fc5-7410-475d-bf9b-2fc09188dbd5")
 	)
-	(pad "4" smd rect
-		(at 0.68 -0.87)
-		(size 0.6 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+	(pad "4" smd custom
+		(at 0.73 -1.065)
+		(size 0.6 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.28) (xy 0.3 -0.28) (xy 0.3 0.72) (xy 0.1 0.725) (xy 0.01 0.55) (xy -0.11 0.415) (xy -0.3 0.28)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
 		(uuid "50d9dbd9-39b2-4d5d-a8f2-03a0a2a3805f")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

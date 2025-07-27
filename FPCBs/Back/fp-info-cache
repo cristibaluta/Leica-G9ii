@@ -1,4 +1,4 @@
-26456039098687259
+26459546790236818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70210,6 +70210,13 @@ connector Molex  top entry
 4
 4
 Leica-G9ii
+FPC-1Row-7Pins-0.38mm
+Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
+connector JAE  top entry
+0
+7
+7
+Leica-G9ii
 FPC-2Rows-27Pins-0.23mm
 Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
 connector JAE  top entry
@@ -70251,6 +70258,13 @@ Power_Connector_Camera
 0
 5
 5
+Leica-G9ii
+Push_Button
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+2
 Leica-G9ii
 Switch_Driving_Modes
 
