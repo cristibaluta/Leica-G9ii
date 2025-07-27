@@ -1,4 +1,4 @@
-(footprint "FPC-2Rows-35Pins-0.23mm"
+(footprint "FPC-2Rows-35Pins-0.5mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC-2Rows-35Pins-0.23mm"
+	(property "Value" "FPC-2Rows-35Pins-0.5mm"
 		(at -0.02 4 0)
 		(layer "F.Fab")
 		(uuid "8c9315a3-1572-4095-9cdc-fc3c1f1d511a")

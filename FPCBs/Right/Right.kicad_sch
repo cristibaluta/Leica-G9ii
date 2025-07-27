@@ -6698,7 +6698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:FPC-2Rows-35Pins-0.23mm"
+		(property "Footprint" "Leica-G9ii:FPC-2Rows-35Pins-0.5mm"
 			(at 85.09 77.47 0)
 			(effects
 				(font
