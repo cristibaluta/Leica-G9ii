@@ -1,0 +1,1001 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f450cd19-0017-425d-8e4e-bf2c41c6b1d3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:SD_Card_Device"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -11.938 17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD_Card_Device"
+				(at 9.144 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SD card device/card"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SD*Device*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD_Card_Device_0_1"
+				(rectangle
+					(start -2.032 6.858)
+					(end -1.27 4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 8.128)
+					(end 0.254 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 8.128)
+					(end 1.778 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 8.128)
+					(end 3.302 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.064 8.128)
+					(end 4.826 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.588 8.128)
+					(end 6.35 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 7.112 8.128)
+					(end 7.874 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 8.636 8.128)
+					(end 9.398 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 10.16 8.128)
+					(end 10.922 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SD_Card_Device_1_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 8.89) (xy 11.684 8.89) (xy 11.684 -9.144) (xy -2.794 -9.144) (xy -2.794 7.112) (xy -1.016 8.89)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "9"
+					(at -1.778 3.556 0)
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(text "1"
+					(at 0 4.826 0)
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(text "8"
+					(at 10.668 4.826 0)
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18221e1b-4c80-4ff2-bb5e-add85fd45d4a")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a2e5e0-548f-4d06-a433-88cc12d723f7")
+	)
+	(wire
+		(pts
+			(xy 124.46 124.46) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28135afd-7c7b-44b9-8d10-cf3297cc9af8")
+	)
+	(wire
+		(pts
+			(xy 124.46 168.91) (xy 124.46 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd72f93-d514-4f54-9137-30986b363887")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfe4550-c533-4264-9fdc-2a226d595ca6")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ae286e-4a6d-4de8-9a9c-a3378b95a6a2")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44aa777f-16c6-4d70-a626-19cd4c5f49d6")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8e00f3-3338-49ea-9d4f-7f96e7a0e2b4")
+	)
+	(wire
+		(pts
+			(xy 99.06 151.13) (xy 109.22 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616a0884-d1f5-4953-80e6-9996f5008c2e")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8bbcbf-4546-484c-a199-ea1fff807816")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e57e8d1-6ed3-407a-b5ef-659abc3447d7")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a271ff-7d4f-4266-95ce-f64387b13a72")
+	)
+	(wire
+		(pts
+			(xy 99.06 135.89) (xy 109.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7136b8b3-d34c-4160-8cb9-b8f3ecdd5c5f")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d3e8d2-8042-4828-b605-4a7911e130a7")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ea4d3e-bcc6-467f-9bc8-5e26d813bc0f")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af54061-6b50-4653-bde3-c70abe5ebb15")
+	)
+	(wire
+		(pts
+			(xy 83.82 113.03) (xy 124.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db592a3-4311-4e1b-b218-33afc266c290")
+	)
+	(wire
+		(pts
+			(xy 83.82 128.27) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48a3972-b066-43c1-984f-6388ced27ccd")
+	)
+	(wire
+		(pts
+			(xy 83.82 163.83) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be40f696-08be-4095-bb86-66888af264f2")
+	)
+	(wire
+		(pts
+			(xy 99.06 140.97) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed43d51-7c22-41ef-9e2b-02a65b02c831")
+	)
+	(wire
+		(pts
+			(xy 99.06 143.51) (xy 109.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb94991-9faa-4a14-82b4-459caaedbf0c")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 124.46 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d641f19d-e990-4361-bee0-279af6fdedc9")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57a06f9-4840-44c4-be8a-811930ab5926")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 109.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e36ad9-49b8-4f42-85d2-f64368bf8231")
+	)
+	(symbol
+		(lib_id "Connector:SD_Card_Device")
+		(at 83.82 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0caf25f0-3ef3-4e51-8463-ee979364986f")
+		(property "Reference" "J1"
+			(at 69.85 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_Card_Device"
+			(at 69.85 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SD card device/card"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e3fd2efd-8a03-457d-bf63-abf4504875a7")
+		)
+		(pin "4"
+			(uuid "675d439d-768c-43c4-9c34-81805a74255b")
+		)
+		(pin "1"
+			(uuid "ac819585-f406-40b1-8263-59d2e34b3fd3")
+		)
+		(pin "9"
+			(uuid "78741bf3-0af0-42d7-b178-a781efebee4d")
+		)
+		(pin "7"
+			(uuid "66d80df1-5164-4c02-9aa9-ed192e936c5c")
+		)
+		(pin "5"
+			(uuid "d1817683-ebb6-41ec-a43e-4868e74a5b74")
+		)
+		(pin "2"
+			(uuid "658444dd-2cd9-420f-b052-9e4300126a7b")
+		)
+		(pin "3"
+			(uuid "e1623663-c1d6-483d-895e-b0fad28844ca")
+		)
+		(pin "6"
+			(uuid "eebf6ce3-9190-4af4-bd93-977c37c857ff")
+		)
+		(instances
+			(project ""
+				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:SD_Card_Device")
+		(at 124.46 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63689386-ee3a-4acf-a125-fd02c7838b6c")
+		(property "Reference" "J4"
+			(at 138.43 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_Card_Device"
+			(at 138.43 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SD card device/card"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "8f29e68b-a7cf-4690-8f40-862532a78ea5")
+		)
+		(pin "8"
+			(uuid "149fa1c0-43fc-4cff-a19f-912468803050")
+		)
+		(pin "9"
+			(uuid "4a1c5061-b480-4c9c-a147-eb751039d7d6")
+		)
+		(pin "1"
+			(uuid "1076436a-9039-4c21-9eab-151856c931f3")
+		)
+		(pin "5"
+			(uuid "af40ae02-0ee6-49f8-9bc9-1c32e8a1f29b")
+		)
+		(pin "2"
+			(uuid "09a31721-f581-4bb3-8464-c415968d877c")
+		)
+		(pin "4"
+			(uuid "c51b3d32-c2f5-4962-ac9e-cac6f1e583af")
+		)
+		(pin "3"
+			(uuid "0d2c1149-04cb-499a-8b9f-3dcae455684d")
+		)
+		(pin "6"
+			(uuid "86c667de-b0c8-4edc-b582-26c93abb665e")
+		)
+		(instances
+			(project "SDCards"
+				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:SD_Card_Device")
+		(at 83.82 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707e9e08-4766-4530-9366-ad28a7791310")
+		(property "Reference" "J3"
+			(at 69.85 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_Card_Device"
+			(at 69.85 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SD card device/card"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4f8a339b-1fe8-4363-be70-4b2f0e2fbb2e")
+		)
+		(pin "4"
+			(uuid "4d47f625-fa63-454e-87a1-02af576dc4f4")
+		)
+		(pin "1"
+			(uuid "740d17cf-22c6-46f4-9f31-704b5ea96f05")
+		)
+		(pin "9"
+			(uuid "9234f429-41eb-48f3-a7f8-d11d15bb5152")
+		)
+		(pin "7"
+			(uuid "a9c28504-02ee-4c0f-9ed2-dd4d626c209c")
+		)
+		(pin "5"
+			(uuid "bb393421-ad3c-49dc-976a-7e0def7c5b45")
+		)
+		(pin "2"
+			(uuid "6bf0fffa-522b-4aa4-8fa6-84ad1ee790b4")
+		)
+		(pin "3"
+			(uuid "cb45cb66-6027-4fbc-abdb-d1e077b80365")
+		)
+		(pin "6"
+			(uuid "5125aef5-4853-4322-b80c-1589d6aa1b25")
+		)
+		(instances
+			(project "SDCards"
+				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:SD_Card_Device")
+		(at 124.46 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb46e58e-84f1-46f2-bbe3-60b0a99a996c")
+		(property "Reference" "J2"
+			(at 138.43 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_Card_Device"
+			(at 138.43 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:SD_Card_Chip_UHS-II"
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SD card device/card"
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "736ef103-345a-4943-8c26-d90a071d639e")
+		)
+		(pin "8"
+			(uuid "a94ef4cc-6559-44c0-a0c9-f36e64600d1f")
+		)
+		(pin "9"
+			(uuid "8f7c8b9e-237a-4ee7-9df0-bfc7f6660734")
+		)
+		(pin "1"
+			(uuid "b744fe88-bf6e-42e6-8707-89268601a4d7")
+		)
+		(pin "5"
+			(uuid "a57c8709-8232-48dc-a63f-e5051c290fd9")
+		)
+		(pin "2"
+			(uuid "be7d1762-dc41-4eea-b0e0-d3bd9299a395")
+		)
+		(pin "4"
+			(uuid "63ef0bd7-0d8e-4aa5-840b-7b236db8d033")
+		)
+		(pin "3"
+			(uuid "dc0758a0-ad8d-45d6-86c1-7c42ad4c46d7")
+		)
+		(pin "6"
+			(uuid "694b6a50-0a64-43ce-a071-661724a3ec70")
+		)
+		(instances
+			(project ""
+				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

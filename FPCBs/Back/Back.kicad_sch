@@ -5279,7 +5279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "To LCD"
+		(property "Value" "From LCD"
 			(at 107.95 101.5999 0)
 			(effects
 				(font
@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:FPC-1Row-7Pins-0.38mm"
 			(at 25.4 158.75 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
 			(at 57.15 163.83 0)
 			(effects
 				(font
@@ -5598,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+		(property "Datasheet" ""
 			(at 57.15 161.29 0)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Switch_Detection"
 			(at 58.42 172.72 0)
 			(effects
 				(font
@@ -5944,7 +5944,7 @@
 				)
 			)
 		)
-		(property "Value" "Front"
+		(property "Value" "To Front"
 			(at 89.535 110.49 0)
 			(effects
 				(font

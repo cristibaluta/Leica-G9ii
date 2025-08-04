@@ -9,7 +9,7 @@
 This project is an attempt to make a beautiful small camera from a Lumix G9II body. The camera is focused on street photography and has some buttons removed.
 
 - Why Lumix MFT? Because the Panasonic-Leica lenses have an aperture ring and they work only on Lumix 
-- Why the G9II? Because it was the newest MFT, and the 25Mpx which I regret now
+- Why the G9II? Because it was the newest and most capable MFT
 - Why Leica M? Because it is the most beautiful camera ever made
 
 If you are an expert in any relevant field and see mistakes you are welcome to correct them or open issues for discussion, my only qualification to do this is that I was into electronics a long time ago.
@@ -65,6 +65,23 @@ If you are an expert in any relevant field and see mistakes you are welcome to c
 ## 📜 License
 
 This project is open-source under the MIT License. Feel free to modify and use — but no commercial use without permission.
+
+---
+
+## Parts removed
+
+1. Lens release push detector (not sure what it was doing beside displaying some info on the screen). There is not enough space to add this detector
+
+---
+
+## TO DO:
+1. The dials are too lose
+2. The buttons are too short
+3. Thread missing from the lever clicker
+4. Back wheel not grippy enough
+5. Dials gaskets too thin, must be wider
+6. 2nd shutter button bigger
+7. Front and back could be extended up and down for better strength
 
 ---
 

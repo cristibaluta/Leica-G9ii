@@ -1,4 +1,4 @@
-26459546790236818
+26463057582654305
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70217,14 +70217,14 @@ connector JAE  top entry
 7
 7
 Leica-G9ii
-FPC-2Rows-27Pins-0.23mm
+FPC-2Rows-27Pins-0.5mm
 Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
 connector JAE  top entry
 0
-35
-35
+27
+27
 Leica-G9ii
-FPC-2Rows-35Pins-0.23mm
+FPC-2Rows-35Pins-0.5mm
 Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator
 connector JAE  top entry
 0
@@ -70265,6 +70265,20 @@ refective opto couple photo coupler
 0
 4
 2
+Leica-G9ii
+Switch_Detection
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+4
+Leica-G9ii
+Switch_Detection_Bidirectional
+package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+refective opto couple photo coupler
+0
+4
+4
 Leica-G9ii
 Switch_Driving_Modes
 
