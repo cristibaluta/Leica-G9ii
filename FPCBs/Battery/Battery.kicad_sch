@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "49765ffb-117b-4de1-87dd-2e5f7150eecf")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Fuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -273,9 +278,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -394,6 +402,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Leica-G9ii-Symbols:Power_Connector_Battery"
 			(exclude_from_sim no)
@@ -456,35 +465,17 @@
 				)
 			)
 			(symbol "Power_Connector_Battery_1_1"
-				(pin power_out line
-					(at 10.16 -3.81 180)
+				(pin power_in line
+					(at 10.16 3.81 180)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -510,17 +501,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 10.16 3.81 180)
+				(pin input line
+					(at 10.16 -1.27 180)
 					(length 2.54)
-					(name "+"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,6 +538,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Leica-G9ii-Symbols:Power_Connector_Camera"
 			(exclude_from_sim no)
@@ -591,53 +601,17 @@
 				)
 			)
 			(symbol "Power_Connector_Camera_1_1"
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 10.16 0 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -664,16 +638,52 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 5.08 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -682,6 +692,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -902,7 +913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 125.4252 69.85 0)
 			(effects
 				(font
@@ -972,7 +983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 135.5852 69.85 0)
 			(effects
 				(font
@@ -1042,7 +1053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 144.78 71.628 90)
 			(effects
 				(font
@@ -1112,7 +1123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 114.3 69.088 90)
 			(effects
 				(font
@@ -1165,7 +1176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d264f24b-a4ee-4ef6-a3a1-f3e678eea01d")
-		(property "Reference" "Power_Connector_Battery1"
+		(property "Reference" "Connector_Battery1"
 			(at 175.26 73.0249 0)
 			(effects
 				(font
@@ -1183,7 +1194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Power_Connector_Battery"
+		(property "Footprint" "Leica-G9ii:Connector_Battery"
 			(at 166.37 73.66 0)
 			(effects
 				(font
@@ -1225,7 +1236,7 @@
 		(instances
 			(project ""
 				(path "/49765ffb-117b-4de1-87dd-2e5f7150eecf"
-					(reference "Power_Connector_Battery1")
+					(reference "Connector_Battery1")
 					(unit 1)
 				)
 			)
@@ -1241,7 +1252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8617d04-d6ce-43e6-bc56-5893f0f996f9")
-		(property "Reference" "Power_Connector_Camera1"
+		(property "Reference" "FPC_Power1"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -1257,7 +1268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Power_Connector_Camera"
+		(property "Footprint" "Leica-G9ii:FPC_Power"
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -1302,7 +1313,7 @@
 		(instances
 			(project ""
 				(path "/49765ffb-117b-4de1-87dd-2e5f7150eecf"
-					(reference "Power_Connector_Camera1")
+					(reference "FPC_Power1")
 					(unit 1)
 				)
 			)
@@ -1313,4 +1324,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

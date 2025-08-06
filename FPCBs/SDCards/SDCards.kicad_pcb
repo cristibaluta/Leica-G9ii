@@ -1545,7 +1545,7 @@
 	(footprint "Leica-G9ii:SD_Card_Chip_UHS-II"
 		(layer "F.Cu")
 		(uuid "8c29ce41-f21b-4fbe-b8a2-7ff6bf2e3090")
-		(at 117.09 76.325 90)
+		(at 82.6 77.715 90)
 		(descr "SD card device PCB layout, contacts and mechanicalm, 16mm slot depth. Manufacture with PCB thickness of 1.4mm, http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf")
 		(tags "SD Card")
 		(property "Reference" "J2"
