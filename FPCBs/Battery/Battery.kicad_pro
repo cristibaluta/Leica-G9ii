@@ -503,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plots/",
+      "plot": "export/plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
