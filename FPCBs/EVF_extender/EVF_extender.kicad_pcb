@@ -35,8 +35,8 @@
 		(47 "User.5" user)
 		(49 "User.6" user)
 		(51 "User.7" user)
-		(53 "User.8" user)
-		(55 "User.9" user)
+		(53 "User.8" user "B.Stiffener_Connector")
+		(55 "User.9" user "B.Stiffener_FPC")
 	)
 	(setup
 		(stackup
@@ -252,7 +252,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "104933eb-2df8-45b9-aec5-077c66693d83")
+			(uuid "415bd83c-61ae-4c95-ab3f-bb167f91f444")
 		)
 		(fp_line
 			(start -1.825 -6.25)
@@ -262,7 +262,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "87ea19a4-a4c7-4ce4-a9ad-5168cee65a8f")
+			(uuid "53072972-f538-43d4-9a9c-7c5fb9dac1e3")
 		)
 		(fp_line
 			(start -1.825 -6.25)
@@ -272,7 +272,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ab4e283a-9444-42bb-8034-f3644d7fe330")
+			(uuid "832cc0d6-3b87-42e5-b9b5-e853ec05deba")
 		)
 		(fp_line
 			(start -1.825 6.25)
@@ -282,7 +282,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6ab58efc-e73c-49e9-9e90-0aab6467740d")
+			(uuid "d3c79438-eef8-46b3-9923-8f2385d2ce11")
 		)
 		(fp_line
 			(start 0 -7)
@@ -292,7 +292,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9616489d-e40c-41a8-a255-a6ac9a527df7")
+			(uuid "4012fb2f-11f5-4448-80dc-76b76384bb9f")
 		)
 		(fp_line
 			(start 0 -6.25)
@@ -302,7 +302,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "751ed748-60f0-41fe-a63a-26b0faf147a6")
+			(uuid "2497f66f-ca63-4513-8f50-696e3c0fbf0e")
 		)
 		(fp_line
 			(start 0 6.25)
@@ -312,7 +312,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0b75b149-ac76-47ac-8f88-24a54c142fa8")
+			(uuid "b85ccb98-fa29-42be-836b-a3e52582a3d2")
 		)
 		(fp_line
 			(start 0 7)
@@ -322,7 +322,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ca8d173b-7ec9-4efe-bd7c-e3e17b614ace")
+			(uuid "9d69d452-71dc-4845-87ef-bd08087dd6b1")
 		)
 		(fp_rect
 			(start -1.93 -7.14)
@@ -333,7 +333,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "eb4ee929-1a61-4ce7-8d87-807a48e82d3d")
+			(uuid "f341b3b6-2883-487e-a5b8-b622fed6b4dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3.63 0.01 90)
@@ -355,13 +355,26 @@
 			(pintype "passive")
 			(uuid "bbfd33ab-6541-454e-a898-0430a42f3702")
 		)
-		(pad "2" smd rect
+		(pad "2" smd custom
 			(at -0.7 -5.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 47 "Net-(J4-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "0443d310-f5e8-45e4-b76f-833ddb33ff63")
 		)
 		(pad "3" smd rect
@@ -1040,29 +1053,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8734d6d0-2eaf-4eb4-92f9-7909e05730c9")
+			(uuid "281711c1-55c5-41e4-9f5b-8059fa34e04b")
 		)
-		(fp_line
-			(start -1.575 -6.71)
-			(end -0.875 -6.71)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
+		(fp_text user "${REFERENCE}"
+			(at -6.565 -0.05689 270)
 			(layer "F.Fab")
-			(uuid "01ca2654-eb28-45e0-9122-f48c8e7dc831")
-		)
-		(pad "" smd rect
-			(at -1.2 -6.7 180)
-			(size 0.95 0.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(uuid "bfa88041-4f2e-4d08-ba27-da6f9a9da32f")
-		)
-		(pad "" smd rect
-			(at -1.2 6.7 180)
-			(size 0.95 0.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(uuid "ee284b7a-e420-4840-9876-461edc638342")
+			(uuid "50e76b71-3e8b-4d0d-a692-8d1f90f132bf")
+			(effects
+				(font
+					(size 0.81 0.81)
+					(thickness 0.12)
+				)
+			)
 		)
 		(pad "1" smd rect
 			(at -1.475 -6 180)
@@ -1619,7 +1621,32 @@
 			(pintype "passive")
 			(uuid "4c2bc1ec-71ed-4c2a-b0db-3e774274f988")
 		)
+		(pad "SH" smd rect
+			(at -1.2 -6.7 180)
+			(size 0.95 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "00782ef3-22cf-4cca-8bb5-c2f80b988e35")
+		)
+		(pad "SH" smd rect
+			(at -1.2 6.7 180)
+			(size 0.95 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "00782ef3-22cf-4cca-8bb5-c2f80b988e35")
+		)
 		(embedded_fonts no)
+	)
+	(gr_poly
+		(pts
+			(xy 152.51 84.38) (xy 158 84.38) (xy 158 71.6) (xy 152.47 71.61) (xy 152.47 69.38) (xy 160 69.38)
+			(xy 160.02 86.71) (xy 152.53 86.7) (xy 152.51 84.37)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "ff005673-6fca-4ff3-9a77-d4d096cdbd55")
 	)
 	(gr_line
 		(start 160.06 84.813779)
@@ -1757,13 +1784,155 @@
 		(layer "Edge.Cuts")
 		(uuid "d69aee66-e2e5-4941-bc14-312202920757")
 	)
+	(gr_arc
+		(start 160.06 84.813779)
+		(mid 159.472016 86.230187)
+		(end 158.053789 86.81377)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "288f83c0-3ac4-4870-837a-32a5f4cd1001")
+	)
+	(gr_line
+		(start 160.06 84.813779)
+		(end 160.06 71.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "33cff7b3-37c3-40cd-96cb-35196035a2d0")
+	)
+	(gr_line
+		(start 152.3 86.79)
+		(end 152.31 69.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "3c613094-58f0-420d-8acf-ebadae497b42")
+	)
+	(gr_line
+		(start 152.299997 86.795901)
+		(end 158.053789 86.81377)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "5da94469-f591-46e1-a260-8de70ff87e06")
+	)
+	(gr_arc
+		(start 158.06 69.3)
+		(mid 159.474214 69.885786)
+		(end 160.06 71.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "a829ef03-99fb-423a-a4ee-1deecf11d56d")
+	)
+	(gr_line
+		(start 158.06 69.3)
+		(end 152.31 69.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.8")
+		(uuid "ee4eeb47-bdbf-483b-bfc4-b9aab847599e")
+	)
+	(gr_line
+		(start 134.2 78)
+		(end 136 78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "3c23bc12-45a3-4d86-b756-072e5b46ceed")
+	)
+	(gr_line
+		(start 134.2 78.75)
+		(end 134.2 78)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "5c6c15b7-3a4c-48e0-8111-4b64191b42e7")
+	)
+	(gr_line
+		(start 134.2 91.25)
+		(end 132.37 91.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "6a3eb59c-6c8f-4c67-b523-d26b4e1ee298")
+	)
+	(gr_line
+		(start 132.37 91.25)
+		(end 132.38 78.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "77c5e755-17da-4fd8-8d68-8a805c748770")
+	)
+	(gr_line
+		(start 136 92)
+		(end 134.2 92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "ad19fc3e-4c19-44cb-8419-110468a13513")
+	)
+	(gr_line
+		(start 136 78)
+		(end 136 92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "c36a67b2-e274-44ba-a1b7-019ec32fb692")
+	)
+	(gr_line
+		(start 132.38 78.75)
+		(end 134.2 78.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "d86c0df3-1d2f-480f-af51-3fc072fac878")
+	)
+	(gr_line
+		(start 134.2 92)
+		(end 134.2 91.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "db5f1e69-c0e0-42c7-9b90-e07de2e2b7a1")
+	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 159.69 78.16 90)
+		(at 159.44 78.01 90)
 		(layer "F.SilkS")
 		(uuid "28262c01-ce0e-4217-ac59-e3f83baee10e")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1 1)
 				(thickness 0.1875)
 			)
 			(justify bottom)

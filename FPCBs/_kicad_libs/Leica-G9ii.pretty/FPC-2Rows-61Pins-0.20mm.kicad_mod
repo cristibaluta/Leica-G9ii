@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0.15 -8.32 0)
 		(layer "F.SilkS")
-		(uuid "7e885577-0b85-410c-b2e3-3c41d4115228")
+		(uuid "19b91fc2-70f2-44d9-9b53-8aae828d0b65")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "FPC-2Rows-61Pins-0.20mm"
 		(at 0 8.5 0)
 		(layer "F.Fab")
-		(uuid "8c9315a3-1572-4095-9cdc-fc3c1f1d511a")
+		(uuid "448ea49c-f06e-43e5-a217-485ac8f04ae7")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca5b3021-ce60-4946-b252-2052caf95615")
+		(uuid "a32b96d5-4520-49bb-b5c8-8c8ca320418c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "703dec8a-bab5-4a30-9c8a-df058fd7d5b1")
+		(uuid "25ba4666-9c38-45e4-9647-713e44a2fd82")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -164,10 +164,23 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a07cd77b-28d5-4983-9209-bd7af2832445")
 	)
-	(pad "2" smd rect
+	(pad "2" smd custom
 		(at -0.7 -5.8)
-		(size 0.7 0.18)
+		(size 0.6 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "38523e69-3033-48d2-b273-0aa1a6aa67b3")
 	)
 	(pad "3" smd rect
