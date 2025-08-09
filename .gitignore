@@ -1,4 +1,5 @@
 .DS_Store
 fp-info-cache
+#auto_saved_files#
 *.lck
 *.zip

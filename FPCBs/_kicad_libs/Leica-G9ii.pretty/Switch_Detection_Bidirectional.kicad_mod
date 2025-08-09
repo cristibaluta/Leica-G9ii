@@ -105,39 +105,28 @@
 		(uuid "2f14b039-1559-4354-bc93-3309af5ad143")
 	)
 	(pad "1" smd rect
-		(at -3.11 4.22)
-		(size 2 2)
-		(layers "F.Cu")
-		(uuid "f16a0deb-c689-440b-9445-349e0f879826")
-	)
-	(pad "2" smd rect
-		(at 3.12 4.21)
-		(size 2 2)
-		(layers "F.Cu")
-		(uuid "d1025e6e-c840-4f1b-9a35-02c01ad42e4d")
-	)
-	(pad "3" smd rect
 		(at -3.11 1.43)
 		(size 2 2)
 		(layers "F.Cu")
 		(uuid "7cc153c0-0888-412c-b28a-7b784f30a794")
 	)
-	(pad "4" smd rect
+	(pad "1" smd rect
 		(at 3.12 1.45)
 		(size 2 2)
 		(layers "F.Cu")
 		(uuid "ae4e544d-3791-44ee-ad2b-6c4bfaaa4f82")
 	)
-	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+	(pad "2" smd rect
+		(at -3.11 4.22)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "f16a0deb-c689-440b-9445-349e0f879826")
 	)
+	(pad "3" smd rect
+		(at 3.12 4.21)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "d1025e6e-c840-4f1b-9a35-02c01ad42e4d")
+	)
+	(embedded_fonts no)
 )

@@ -3212,180 +3212,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPST_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPST_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push_SPDT"
 			(pin_names
 				(offset 0)
@@ -4234,6 +4060,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 132.08 109.22)
@@ -4258,6 +4260,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "192f4915-fa5e-4562-8a82-70e1c3f2bb5a")
+	)
+	(junction
+		(at 60.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19920854-12b6-4d0d-836f-d1adbb5f8a38")
+	)
+	(junction
+		(at 60.96 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7c8151-74aa-4e46-af8b-4f4b4b82e85e")
 	)
 	(junction
 		(at 196.85 69.85)
@@ -4294,6 +4308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40eee2ff-8a52-44db-8768-8a78bc6ef61b")
+	)
+	(junction
+		(at 60.96 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ed86474-2d56-4f84-8df7-b4d38791c8b4")
 	)
 	(junction
 		(at 147.32 105.41)
@@ -4336,6 +4356,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9169be25-3da4-4445-8fbe-21a6bba61e76")
+	)
+	(junction
+		(at 71.12 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3cacd1-23e2-429f-8b57-90ca3d9c3dba")
 	)
 	(junction
 		(at 180.34 92.71)
@@ -4641,7 +4667,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 107.95) (xy 248.92 107.95)
+			(xy 251.46 105.41) (xy 248.92 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4741,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d13899c-f44b-49da-991f-0c75f7e5bc83")
+	)
+	(wire
+		(pts
 			(xy 73.66 76.2) (xy 93.98 76.2)
 		)
 		(stroke
@@ -4801,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 57.15) (xy 60.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49acd321-ac79-4ad3-b821-41aac0680046")
+	)
+	(wire
+		(pts
 			(xy 180.34 67.31) (xy 180.34 92.71)
 		)
 		(stroke
@@ -4808,6 +4854,16 @@
 			(type default)
 		)
 		(uuid "4b409f2f-f169-4ffa-8f13-e3b0dee74eef")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 60.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc92640-5559-4237-bf77-08b4ce3a14a2")
 	)
 	(wire
 		(pts
@@ -4861,16 +4917,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 105.41) (xy 238.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd43c42-b8e3-49f1-913d-76dd49b208c7")
-	)
-	(wire
-		(pts
 			(xy 78.74 88.9) (xy 101.6 88.9)
 		)
 		(stroke
@@ -4888,6 +4934,16 @@
 			(type default)
 		)
 		(uuid "51c38e39-7142-4c87-99a5-dbc97c717c77")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.69) (xy 71.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52167fcd-bdd6-49e1-88d6-2d17d8536711")
 	)
 	(wire
 		(pts
@@ -5071,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 113.03) (xy 251.46 107.95)
+			(xy 251.46 113.03) (xy 251.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5131,13 +5187,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 102.87) (xy 251.46 97.79)
+			(xy 251.46 100.33) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7051cd2f-110a-44fe-8432-ec245b9c3b42")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7057c648-e0fa-4454-ae29-0aad330ccc6e")
 	)
 	(wire
 		(pts
@@ -5161,6 +5227,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 40.64) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752152ca-cd56-4456-ae31-2c8f4409c4bf")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 78.74 85.09)
 		)
 		(stroke
@@ -5168,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "7572056e-6108-4d88-b2c3-f2c0994de582")
-	)
-	(wire
-		(pts
-			(xy 223.52 97.79) (xy 223.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789ff9ff-d9d6-481f-82c2-a292c21b94bb")
 	)
 	(wire
 		(pts
@@ -5481,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 97.79) (xy 223.52 97.79)
+			(xy 251.46 97.79) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5601,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 102.87) (xy 251.46 102.87)
+			(xy 248.92 100.33) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5931,6 +5997,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 97.79) (xy 227.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da627ebb-fbf9-4006-9330-40a37907f6df")
+	)
+	(wire
+		(pts
 			(xy 93.98 64.77) (xy 93.98 66.04)
 		)
 		(stroke
@@ -6038,6 +6114,16 @@
 			(type default)
 		)
 		(uuid "f1bd6261-9efe-4f0e-b8f2-f26a90c5e489")
+	)
+	(wire
+		(pts
+			(xy 223.52 102.87) (xy 238.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f256767a-8d9b-4149-8f70-fa019173ed37")
 	)
 	(wire
 		(pts
@@ -6921,7 +7007,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
-		(at 243.84 105.41 0)
+		(at 243.84 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6930,7 +7016,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f46dc24-92b8-4d3e-b361-190e86dc7c2f")
 		(property "Reference" "SW3"
-			(at 243.84 96.52 0)
+			(at 243.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7024,7 @@
 			)
 		)
 		(property "Value" "Focus+Shutter"
-			(at 243.84 99.06 0)
+			(at 243.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +7032,7 @@
 			)
 		)
 		(property "Footprint" "Leica-G9ii:Switch_Shutter_1"
-			(at 243.84 105.41 0)
+			(at 243.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +7041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 105.41 0)
+			(at 243.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7050,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch, single pole double throw"
-			(at 243.84 105.41 0)
+			(at 243.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,80 +7787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST_x2")
-		(at 66.04 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d76e59-65b2-4757-b281-49946ad50f72")
-		(property "Reference" "SW2"
-			(at 66.04 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ON/OFF"
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c8b91a3-1df2-49a5-8639-352f55ffe1f6")
-		)
-		(pin "2"
-			(uuid "ff8501e6-51f3-4dc2-bc01-9b70eae73bc9")
-		)
-		(pin "3"
-			(uuid "da647749-5af3-4488-887b-71852a07daa9")
-		)
-		(pin "4"
-			(uuid "e006224e-22a7-4b50-a996-01f73424cc05")
-		)
-		(instances
-			(project ""
-				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 196.85 38.1 0)
 		(unit 1)
@@ -7845,6 +7857,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 66.04 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e971d805-2d2b-4ef4-a281-c685caa46683")
+		(property "Reference" "SW2"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ON/OFF"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7874ae55-628b-46b8-9b19-577cee2fed47")
+		)
+		(pin "2"
+			(uuid "40747a4f-4e88-427c-85fe-0af011cde4b4")
+		)
+		(pin "1"
+			(uuid "adf3902a-3678-4ae3-ad4c-322903f69596")
+		)
+		(instances
+			(project "Right"
+				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 60.96 100.33 0)
 		(unit 1)
@@ -7909,6 +7993,78 @@
 			(project ""
 				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 66.04 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d20e36-9010-404c-97b2-46c5cccaa226")
+		(property "Reference" "SW6"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ON/OFF"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d1dad11-9599-4eec-bd45-977f16631cf2")
+		)
+		(pin "2"
+			(uuid "ac12d39e-e3c3-48c9-b573-d437e458e4ed")
+		)
+		(pin "1"
+			(uuid "42750f9f-9c4e-434d-8f65-0dda835bafc8")
+		)
+		(instances
+			(project ""
+				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
