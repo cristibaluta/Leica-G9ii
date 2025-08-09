@@ -1,7 +1,7 @@
 (footprint "Battery_Cell"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fcaf6e7f-a748-4369-aeb0-c1be1de72b82")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
 	)
@@ -89,29 +76,31 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at 0.7 2.7)
-		(size 1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "3986b517-7672-43c4-9997-4f028188f8d6")
-	)
-	(pad "2" smd roundrect
+	(pad "" smd roundrect
 		(at -0.7 2.7)
 		(size 1 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
+		(uuid "0518dffb-f217-40ae-8e29-98e36b8ab0c9")
+	)
+	(pad "" smd roundrect
+		(at 0.7 2.7)
+		(size 1 2)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "905a2bc8-0f08-414f-904f-5e6c25c4dd40")
+	)
+	(pad "1" smd rect
+		(at 0.7 2.7)
+		(size 1.2 2.2)
+		(layers "F.Cu")
+		(uuid "3986b517-7672-43c4-9997-4f028188f8d6")
+	)
+	(pad "2" smd rect
+		(at -0.7 2.7)
+		(size 1.2 2.2)
+		(layers "F.Cu")
 		(uuid "bc6ef0b5-ebe5-4019-b8a5-448ef35812cc")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 )

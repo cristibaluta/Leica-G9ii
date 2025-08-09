@@ -244,7 +244,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy -1.83 -6.25) (xy 0 -6.25) (xy 0 6.25) (xy -1.83 6.25)
+				(xy -1.83 -6.25) (xy -0.19 -6.25) (xy -0.19 6.25) (xy -1.83 6.25)
 			)
 			(stroke
 				(width 0.1)
@@ -252,7 +252,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "415bd83c-61ae-4c95-ab3f-bb167f91f444")
+			(uuid "f16a8ee6-f53b-4592-89da-b7ea44d892cf")
 		)
 		(fp_line
 			(start -1.825 -6.25)
@@ -262,7 +262,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "53072972-f538-43d4-9a9c-7c5fb9dac1e3")
+			(uuid "8075607b-8705-4b3d-9200-1821ff39838d")
 		)
 		(fp_line
 			(start -1.825 -6.25)
@@ -272,7 +272,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "832cc0d6-3b87-42e5-b9b5-e853ec05deba")
+			(uuid "fa7593d9-c7cb-4ae9-9d76-2a4e2b6768a6")
 		)
 		(fp_line
 			(start -1.825 6.25)
@@ -282,7 +282,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d3c79438-eef8-46b3-9923-8f2385d2ce11")
+			(uuid "cdabc906-bc5c-4e1a-8e66-0baad58e372e")
 		)
 		(fp_line
 			(start 0 -7)
@@ -292,7 +292,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4012fb2f-11f5-4448-80dc-76b76384bb9f")
+			(uuid "77cab143-f86e-41de-8428-d29a4be90291")
 		)
 		(fp_line
 			(start 0 -6.25)
@@ -302,7 +302,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2497f66f-ca63-4513-8f50-696e3c0fbf0e")
+			(uuid "c006f7f9-d77c-47f6-853c-7f68668e1977")
 		)
 		(fp_line
 			(start 0 6.25)
@@ -312,7 +312,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b85ccb98-fa29-42be-836b-a3e52582a3d2")
+			(uuid "766cb1ef-cfba-4bcd-8140-0e68ec00257f")
 		)
 		(fp_line
 			(start 0 7)
@@ -322,7 +322,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9d69d452-71dc-4845-87ef-bd08087dd6b1")
+			(uuid "da17eade-2fcc-4e00-b4a6-739d61f60302")
 		)
 		(fp_rect
 			(start -1.93 -7.14)
@@ -333,7 +333,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f341b3b6-2883-487e-a5b8-b622fed6b4dc")
+			(uuid "be5482e4-19bf-4a72-8fbe-a124b1343996")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3.63 0.01 90)
@@ -346,13 +346,26 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd custom
 			(at -1.35 -6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "Net-(J4-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "bbfd33ab-6541-454e-a898-0430a42f3702")
 		)
 		(pad "2" smd custom
@@ -377,535 +390,1302 @@
 			)
 			(uuid "0443d310-f5e8-45e4-b76f-833ddb33ff63")
 		)
-		(pad "3" smd rect
+		(pad "3" smd custom
 			(at -1.35 -5.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 60 "Net-(J4-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "0ee11836-64b7-44d4-a06d-1d0784568a5e")
 		)
-		(pad "4" smd rect
+		(pad "4" smd custom
 			(at -0.7 -5.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "Net-(J4-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "c015fc09-4489-42b8-9e47-1a7579dc7939")
 		)
-		(pad "5" smd rect
+		(pad "5" smd custom
 			(at -1.35 -5.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 61 "Net-(J4-Pin_5)")
 			(pinfunction "Pin_5")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "59049f15-244a-4643-92d0-f8e4153c74e1")
 		)
-		(pad "6" smd rect
+		(pad "6" smd custom
 			(at -0.7 -5)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "Net-(J4-Pin_6)")
 			(pinfunction "Pin_6")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "7bae0b22-d57c-45ad-8cac-71cf9b1c7d31")
 		)
-		(pad "7" smd rect
+		(pad "7" smd custom
 			(at -1.35 -4.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "Net-(J4-Pin_7)")
 			(pinfunction "Pin_7")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "e1a49802-cbb2-45f3-a4a4-8000f5c968d6")
 		)
-		(pad "8" smd rect
+		(pad "8" smd custom
 			(at -0.7 -4.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 54 "Net-(J4-Pin_8)")
 			(pinfunction "Pin_8")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "be1db6fd-fb80-4eb6-a7dc-57e236085691")
 		)
-		(pad "9" smd rect
+		(pad "9" smd custom
 			(at -1.35 -4.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "Net-(J4-Pin_9)")
 			(pinfunction "Pin_9")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "b2a2c740-140b-4aaf-9767-8b6f29b11411")
 		)
-		(pad "10" smd rect
+		(pad "10" smd custom
 			(at -0.7 -4.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "Net-(J4-Pin_10)")
 			(pinfunction "Pin_10")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "b1fe3bc2-b58b-4551-a7db-018486f306f0")
 		)
-		(pad "11" smd rect
+		(pad "11" smd custom
 			(at -1.35 -4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "Net-(J4-Pin_11)")
 			(pinfunction "Pin_11")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "d0c9ac55-dbe0-452f-abe9-835050c77bfb")
 		)
-		(pad "12" smd rect
+		(pad "12" smd custom
 			(at -0.7 -3.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "Net-(J4-Pin_12)")
 			(pinfunction "Pin_12")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "6bcefd44-3380-4d13-9c91-daafa83bb7d0")
 		)
-		(pad "13" smd rect
+		(pad "13" smd custom
 			(at -1.35 -3.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "Net-(J4-Pin_13)")
 			(pinfunction "Pin_13")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "7a7fcb5a-1f50-4c86-befb-d50adde27bbc")
 		)
-		(pad "14" smd rect
+		(pad "14" smd custom
 			(at -0.7 -3.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "Net-(J4-Pin_14)")
 			(pinfunction "Pin_14")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "515b5aa6-575d-47ce-b4ea-5f8980f17544")
 		)
-		(pad "15" smd rect
+		(pad "15" smd custom
 			(at -1.35 -3.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "Net-(J4-Pin_15)")
 			(pinfunction "Pin_15")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "162537d3-c226-4ae7-bb33-44787dd8b755")
 		)
-		(pad "16" smd rect
+		(pad "16" smd custom
 			(at -0.7 -3)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 40 "Net-(J4-Pin_16)")
 			(pinfunction "Pin_16")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "9da29503-590d-44ce-8c94-4dbf020e3507")
 		)
-		(pad "17" smd rect
+		(pad "17" smd custom
 			(at -1.35 -2.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "Net-(J4-Pin_17)")
 			(pinfunction "Pin_17")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "09aa3e90-c652-48e7-9876-38fef16be6c2")
 		)
-		(pad "18" smd rect
+		(pad "18" smd custom
 			(at -0.7 -2.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 44 "Net-(J4-Pin_18)")
 			(pinfunction "Pin_18")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "e7fbe1d8-053f-40b4-909d-c781c488d2ea")
 		)
-		(pad "19" smd rect
+		(pad "19" smd custom
 			(at -1.35 -2.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "Net-(J4-Pin_19)")
 			(pinfunction "Pin_19")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "20702cdd-5179-44c1-8cf8-8b716d6e11d1")
 		)
-		(pad "20" smd rect
+		(pad "20" smd custom
 			(at -0.7 -2.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "Net-(J4-Pin_20)")
 			(pinfunction "Pin_20")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "3b168408-226d-4f5b-aa6e-3ce222a79f2d")
 		)
-		(pad "21" smd rect
+		(pad "21" smd custom
 			(at -1.35 -2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 51 "Net-(J4-Pin_21)")
 			(pinfunction "Pin_21")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "17c4c74f-5f14-48dd-a8a6-b58181217b6d")
 		)
-		(pad "22" smd rect
+		(pad "22" smd custom
 			(at -0.7 -1.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "Net-(J4-Pin_22)")
 			(pinfunction "Pin_22")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "d1e34648-ffce-4ec8-a093-9dde930d8925")
 		)
-		(pad "23" smd rect
+		(pad "23" smd custom
 			(at -1.35 -1.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(J4-Pin_23)")
 			(pinfunction "Pin_23")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "c502df0c-2bbd-4a09-a7e1-02a4d3b3f591")
 		)
-		(pad "24" smd rect
+		(pad "24" smd custom
 			(at -0.7 -1.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "Net-(J4-Pin_24)")
 			(pinfunction "Pin_24")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "f740c9ac-fe3c-4b47-88d0-8ad0a355db38")
 		)
-		(pad "25" smd rect
+		(pad "25" smd custom
 			(at -1.35 -1.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "Net-(J4-Pin_25)")
 			(pinfunction "Pin_25")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "0df646c9-2a51-4899-91f9-a8734d25e37c")
 		)
-		(pad "26" smd rect
+		(pad "26" smd custom
 			(at -0.7 -1)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 42 "Net-(J4-Pin_26)")
 			(pinfunction "Pin_26")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "4ddb8e19-84dd-4162-ab92-cd1fdf5086b1")
 		)
-		(pad "27" smd rect
+		(pad "27" smd custom
 			(at -1.35 -0.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "Net-(J4-Pin_27)")
 			(pinfunction "Pin_27")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "d3cb3d56-9115-4b29-8b71-21e97712977d")
 		)
-		(pad "28" smd rect
+		(pad "28" smd custom
 			(at -0.7 -0.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "Net-(J4-Pin_28)")
 			(pinfunction "Pin_28")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "c88bbaf9-0178-43fd-adb0-756376884b07")
 		)
-		(pad "29" smd rect
+		(pad "29" smd custom
 			(at -1.35 -0.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 46 "Net-(J4-Pin_29)")
 			(pinfunction "Pin_29")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "28ebd274-c548-4fdd-ad8c-0125c4a198da")
 		)
-		(pad "30" smd rect
+		(pad "30" smd custom
 			(at -0.7 -0.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "Net-(J4-Pin_30)")
 			(pinfunction "Pin_30")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "15486c55-127f-4bdc-9c94-6fef92eeeb22")
 		)
-		(pad "31" smd rect
+		(pad "31" smd custom
 			(at -1.35 0)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 43 "Net-(J4-Pin_31)")
 			(pinfunction "Pin_31")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "458ed2b5-d843-48ac-a04e-746c2069e0b1")
 		)
-		(pad "32" smd rect
+		(pad "32" smd custom
 			(at -0.7 0.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 52 "Net-(J4-Pin_32)")
 			(pinfunction "Pin_32")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "22e57dc2-dabf-4f14-ab46-31f3390a2d43")
 		)
-		(pad "33" smd rect
+		(pad "33" smd custom
 			(at -1.35 0.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "Net-(J4-Pin_33)")
 			(pinfunction "Pin_33")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "e8e139c5-d500-445e-a1e0-e1228f9d0e2a")
 		)
-		(pad "34" smd rect
+		(pad "34" smd custom
 			(at -0.7 0.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 48 "Net-(J4-Pin_34)")
 			(pinfunction "Pin_34")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "8bc9e846-a8fa-481d-a84e-26cfa6c83fcd")
 		)
-		(pad "35" smd rect
+		(pad "35" smd custom
 			(at -1.35 0.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "Net-(J4-Pin_35)")
 			(pinfunction "Pin_35")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "723d619b-a789-4b08-ad71-58e2605becdd")
 		)
-		(pad "36" smd rect
+		(pad "36" smd custom
 			(at -0.7 1)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "Net-(J4-Pin_36)")
 			(pinfunction "Pin_36")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "bda4eab1-9420-4b88-9b8c-9c23d7286b0a")
 		)
-		(pad "37" smd rect
+		(pad "37" smd custom
 			(at -1.35 1.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 39 "Net-(J4-Pin_37)")
 			(pinfunction "Pin_37")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "386d843b-7666-4c76-bc57-635a8bf3fd29")
 		)
-		(pad "38" smd rect
+		(pad "38" smd custom
 			(at -0.7 1.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 45 "Net-(J4-Pin_38)")
 			(pinfunction "Pin_38")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "60553f79-7670-4cb5-8412-fd19dea6e1b5")
 		)
-		(pad "39" smd rect
+		(pad "39" smd custom
 			(at -1.35 1.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "Net-(J4-Pin_39)")
 			(pinfunction "Pin_39")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "18778c8d-5755-46a0-b0bc-e7a5730084ca")
 		)
-		(pad "40" smd rect
+		(pad "40" smd custom
 			(at -0.7 1.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 49 "Net-(J4-Pin_40)")
 			(pinfunction "Pin_40")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "bb9f3db2-1550-4f95-896f-fcc4a97774a5")
 		)
-		(pad "41" smd rect
+		(pad "41" smd custom
 			(at -1.35 2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "Net-(J4-Pin_41)")
 			(pinfunction "Pin_41")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "56fcd630-f172-4fe6-afe2-0590849c6f37")
 		)
-		(pad "42" smd rect
+		(pad "42" smd custom
 			(at -0.7 2.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "Net-(J4-Pin_42)")
 			(pinfunction "Pin_42")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "98ffb91d-2ee6-4a4d-b424-fc340d7ffe45")
 		)
-		(pad "43" smd rect
+		(pad "43" smd custom
 			(at -1.35 2.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "Net-(J4-Pin_43)")
 			(pinfunction "Pin_43")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "dff1cc26-614d-4b39-820e-530be47262c0")
 		)
-		(pad "44" smd rect
+		(pad "44" smd custom
 			(at -0.7 2.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "Net-(J4-Pin_44)")
 			(pinfunction "Pin_44")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "a2143b8a-db90-48b2-9b97-172610a4a5ef")
 		)
-		(pad "45" smd rect
+		(pad "45" smd custom
 			(at -1.35 2.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "Net-(J4-Pin_45)")
 			(pinfunction "Pin_45")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "7f2711b3-2c0e-4b96-b0c8-c049ed0cb160")
 		)
-		(pad "46" smd rect
+		(pad "46" smd custom
 			(at -0.7 3)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "Net-(J4-Pin_46)")
 			(pinfunction "Pin_46")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "8548469c-7b09-44ac-a5ee-74a6ece0ffce")
 		)
-		(pad "47" smd rect
+		(pad "47" smd custom
 			(at -1.35 3.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "Net-(J4-Pin_47)")
 			(pinfunction "Pin_47")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "eaf007b8-acdb-40ab-9889-0e860e7f4793")
 		)
-		(pad "48" smd rect
+		(pad "48" smd custom
 			(at -0.7 3.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 50 "Net-(J4-Pin_48)")
 			(pinfunction "Pin_48")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "800593a0-06bd-456e-8682-b73cb2185150")
 		)
-		(pad "49" smd rect
+		(pad "49" smd custom
 			(at -1.35 3.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(J4-Pin_49)")
 			(pinfunction "Pin_49")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "2fe7c747-b5cc-4e5b-aba6-7d4f6813e1e6")
 		)
-		(pad "50" smd rect
+		(pad "50" smd custom
 			(at -0.7 3.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "Net-(J4-Pin_50)")
 			(pinfunction "Pin_50")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "74ca940f-5fcf-4cf9-85ee-346b531c3a53")
 		)
-		(pad "51" smd rect
+		(pad "51" smd custom
 			(at -1.35 4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(J4-Pin_51)")
 			(pinfunction "Pin_51")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "7c5e75cc-49a2-4346-8474-198a7d1e5782")
 		)
-		(pad "52" smd rect
+		(pad "52" smd custom
 			(at -0.7 4.2)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "Net-(J4-Pin_52)")
 			(pinfunction "Pin_52")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "7de0b56e-18e3-4f98-b350-01da8b4ee99f")
 		)
-		(pad "53" smd rect
+		(pad "53" smd custom
 			(at -1.35 4.4)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "Net-(J4-Pin_53)")
 			(pinfunction "Pin_53")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "6cce34f4-5502-4799-8604-9de6a43d914d")
 		)
-		(pad "54" smd rect
+		(pad "54" smd custom
 			(at -0.7 4.6)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "Net-(J4-Pin_54)")
 			(pinfunction "Pin_54")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "a44dcca1-55e4-49d6-b304-ca71e2e47c2f")
 		)
-		(pad "55" smd rect
+		(pad "55" smd custom
 			(at -1.35 4.8)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "Net-(J4-Pin_55)")
 			(pinfunction "Pin_55")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "cdac100b-5815-42ff-aaa2-a3b0ed6628ee")
 		)
-		(pad "56" smd rect
+		(pad "56" smd custom
 			(at -0.7 5)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "Net-(J4-Pin_56)")
 			(pinfunction "Pin_56")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "cc2aa769-4e15-4f05-bf94-9828711660d7")
 		)
-		(pad "57" smd rect
+		(pad "57" smd custom
 			(at -1.35 5.2)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "Net-(J4-Pin_57)")
 			(pinfunction "Pin_57")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "e96aa3d4-8360-4f8a-9b03-09e4d2b88ffe")
 		)
-		(pad "58" smd rect
+		(pad "58" smd custom
 			(at -0.7 5.4)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(J4-Pin_58)")
 			(pinfunction "Pin_58")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "479af6dd-4225-4d57-a4b4-ccfdb6dae12e")
 		)
-		(pad "59" smd rect
+		(pad "59" smd custom
 			(at -1.35 5.6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 41 "Net-(J4-Pin_59)")
 			(pinfunction "Pin_59")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "2b307df0-ac50-42ca-90b0-803f4faaf228")
 		)
-		(pad "60" smd rect
+		(pad "60" smd custom
 			(at -0.7 5.8)
-			(size 0.7 0.18)
+			(size 0.6 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "Net-(J4-Pin_60)")
 			(pinfunction "Pin_60")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.35 -0.09) (xy 0.35 0.09) (xy -0.3 0.09) (xy -0.35 0.04) (xy -0.35 -0.04) (xy -0.3 -0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "d57e051a-3cca-431f-a452-7c2bb1c883eb")
 		)
-		(pad "61" smd rect
+		(pad "61" smd custom
 			(at -1.35 6)
-			(size 0.55 0.18)
+			(size 0.4 0.18)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 58 "Net-(J4-Pin_61)")
 			(pinfunction "Pin_61")
 			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.275 -0.09) (xy 0.23 -0.09) (xy 0.275 -0.04) (xy 0.275 0.04) (xy 0.23 0.09) (xy -0.275 0.09)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
 			(uuid "e201b7b9-ddcd-404e-a980-f88d1d4887b4")
 		)
 		(embedded_fonts no)
@@ -1053,7 +1833,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "281711c1-55c5-41e4-9f5b-8059fa34e04b")
+			(uuid "475a16ca-fd4f-4a22-9c33-a3d1bf251a28")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -6.565 -0.05689 270)

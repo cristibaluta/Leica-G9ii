@@ -1,7 +1,7 @@
 (footprint "2nd_dial"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fcaf6e7f-a748-4369-aeb0-c1be1de72b82")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
 	)
@@ -89,50 +76,70 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "" smd roundrect
+		(at -3.9 0)
+		(size 1.4 2.8)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "e0216906-11bd-4255-8b58-43983e438fad")
+	)
+	(pad "" smd roundrect
+		(at -1.82 4.18)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "27e019bd-3104-4f0b-bb67-ef80857071b2")
+	)
+	(pad "" smd roundrect
+		(at 0.01 4.2)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "54661b7a-db91-4fcb-b115-11d37a45002c")
+	)
+	(pad "" smd roundrect
+		(at 1.83 4.2)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "1d2508b8-ddf9-401c-a494-fdcc62168923")
+	)
+	(pad "" smd roundrect
+		(at 3.91 0.01)
+		(size 1.4 2.8)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "e431b96c-50c7-4a5f-80fb-38145b00ad42")
+	)
+	(pad "1" smd rect
 		(at -1.82 4.18)
 		(size 1.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
+		(layers "F.Cu")
 		(uuid "f16a0deb-c689-440b-9445-349e0f879826")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd rect
 		(at 0 4.18)
 		(size 1.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
+		(layers "F.Cu")
 		(uuid "bc6ef0b5-ebe5-4019-b8a5-448ef35812cc")
 	)
-	(pad "3" smd roundrect
+	(pad "3" smd rect
 		(at 1.82 4.18)
 		(size 1.4 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
+		(layers "F.Cu")
 		(uuid "3986b517-7672-43c4-9997-4f028188f8d6")
 	)
-	(pad "SH" smd roundrect
+	(pad "SH" smd rect
 		(at -3.9 0)
 		(size 1.65 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
+		(layers "F.Cu")
 		(uuid "acdafb09-6eeb-453d-ba5d-aadd4185b4db")
 	)
-	(pad "SH" smd roundrect
+	(pad "SH" smd rect
 		(at 3.9 0)
 		(size 1.65 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
+		(layers "F.Cu")
 		(uuid "23c973fb-4afe-4668-a8a0-4076c27642ad")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 )

@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.3"
     },
-    "CreationDate": "2025-08-09T11:02:51+03:00"
+    "CreationDate": "2025-08-09T15:08:58+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "EVF_extender",
-      "GUID": "4556465f-6578-4746-956e-6465722e6b69",
+      "Name": "Right",
+      "GUID": "52696768-742e-46b6-9963-61645f706362",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 27.735,
-      "Y": 22.75
+      "X": 61.6,
+      "Y": 89.28
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,55 +24,57 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.06,
-      "PadToTrack": 0.06,
-      "TrackToTrack": 0.07,
-      "MinLineWidth": 0.076
+      "PadToPad": 0.02,
+      "PadToTrack": 0.02,
+      "TrackToTrack": 0.02,
+      "MinLineWidth": 0.04,
+      "TrackToRegion": 0.02,
+      "RegionToRegion": 0.02
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "EVF_extender-F_Cu.gtl",
+      "Path": "Right-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-B_Cu.gbl",
+      "Path": "Right-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-F_Paste.gtp",
+      "Path": "Right-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-B_Paste.gbp",
+      "Path": "Right-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-F_Silkscreen.gto",
+      "Path": "Right-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-B_Silkscreen.gbo",
+      "Path": "Right-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "EVF_extender-F_Mask.gts",
+      "Path": "Right-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "EVF_extender-B_Mask.gbs",
+      "Path": "Right-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "EVF_extender-Edge_Cuts.gm1",
+      "Path": "Right-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

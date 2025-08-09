@@ -416,500 +416,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x09_Pin"
 			(pin_names
 				(offset 1.016)
@@ -5205,7 +4711,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 80.01) (xy 35.56 80.01)
+			(xy 45.72 80.01) (xy 74.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 82.55) (xy 35.56 82.55)
+			(xy 54.61 82.55) (xy 76.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5412,16 +4918,6 @@
 			(type default)
 		)
 		(uuid "59aa1f0c-35fa-440b-9416-67cda293ca70")
-	)
-	(wire
-		(pts
-			(xy 57.15 74.93) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8a8b01-0ce4-4656-afbe-f26e253e8749")
 	)
 	(wire
 		(pts
@@ -5555,16 +5051,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 76.2 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6634c543-14fe-4535-9c96-a551745fa6da")
-	)
-	(wire
-		(pts
 			(xy 153.67 127) (xy 153.67 139.7)
 		)
 		(stroke
@@ -5672,16 +5158,6 @@
 			(type default)
 		)
 		(uuid "71c83825-b2d5-4c39-aed0-79e0fa9573d7")
-	)
-	(wire
-		(pts
-			(xy 57.15 80.01) (xy 74.93 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72fe2c25-0cf6-442e-8a67-5f59724065f6")
 	)
 	(wire
 		(pts
@@ -5925,7 +5401,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 69.85) (xy 33.02 69.85)
+			(xy 45.72 69.85) (xy 54.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6135,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 87.63) (xy 33.02 82.55)
+			(xy 54.61 87.63) (xy 54.61 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6335,16 +5811,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 73.66 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c715eda3-45c6-4b9b-b51b-9cc164a59107")
-	)
-	(wire
-		(pts
 			(xy 147.32 105.41) (xy 153.67 105.41)
 		)
 		(stroke
@@ -6385,7 +5851,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 77.47) (xy 35.56 77.47)
+			(xy 45.72 77.47) (xy 73.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6455,7 +5921,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 74.93) (xy 35.56 74.93)
+			(xy 54.61 74.93) (xy 80.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6545,7 +6011,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 69.85) (xy 33.02 74.93)
+			(xy 54.61 69.85) (xy 54.61 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6595,7 +6061,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 87.63) (xy 33.02 87.63)
+			(xy 45.72 87.63) (xy 54.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6867,7 +6333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 88.9 90)
 			(effects
 				(font
@@ -6985,7 +6451,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 83.82 90)
+		(at 45.72 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6994,7 +6460,7 @@
 		(fields_autoplaced yes)
 		(uuid "2638a829-858e-4a71-92e2-4a626bb60bef")
 		(property "Reference" "D2"
-			(at 27.94 84.1374 90)
+			(at 49.53 84.1374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,7 +6469,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 27.94 86.6774 90)
+			(at 49.53 86.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,8 +6477,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 24.13 83.82 0)
+		(property "Footprint" "Leica-G9ii:LED"
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +6487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 83.82 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +6496,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 83.82 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +6636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 53.34 90)
 			(effects
 				(font
@@ -7214,7 +6680,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 24.13 73.66 270)
+		(at 45.72 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7223,7 +6689,7 @@
 		(fields_autoplaced yes)
 		(uuid "38e47225-041b-432d-a30f-8eb805ebeea2")
 		(property "Reference" "D1"
-			(at 26.67 70.8024 90)
+			(at 48.26 70.8024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +6698,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 26.67 73.3424 90)
+			(at 48.26 73.3424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,8 +6706,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 24.13 73.66 0)
+		(property "Footprint" "Leica-G9ii:LED"
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +6716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 73.66 0)
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +6725,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 24.13 73.66 0)
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 73.66 90)
 			(effects
 				(font
@@ -7910,7 +7376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 45.72 90)
 			(effects
 				(font
@@ -7980,7 +7446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 81.28 90)
 			(effects
 				(font
@@ -8050,7 +7516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 30.48 90)
 			(effects
 				(font
@@ -8087,82 +7553,6 @@
 			(project ""
 				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 52.07 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a91f498f-fe38-4ce4-9006-b24cd57f99b4")
-		(property "Reference" "J2"
-			(at 50.8 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LEDs"
-			(at 50.8 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Leica-G9ii:Connector-4Pins"
-			(at 52.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 52.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "98f99a06-d1e4-46df-b336-d06e74b6725d")
-		)
-		(pin "2"
-			(uuid "1853b8bf-f1ec-4b81-bffd-ac0471bc3b03")
-		)
-		(pin "1"
-			(uuid "51a782e2-1347-4b7a-b508-d21e1986905d")
-		)
-		(pin "4"
-			(uuid "1b9b62b2-813c-41ad-959e-6cb32c1c2497")
-		)
-		(instances
-			(project ""
-				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8241,80 +7631,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 40.64 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dec3b824-7b13-44c3-8549-fecb60bb8d78")
-		(property "Reference" "J3"
-			(at 40.005 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LEDs"
-			(at 40.005 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Leica-G9ii:Connector-4Pins"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "88136bcc-6cfe-4471-917b-f9c773c33f27")
-		)
-		(pin "2"
-			(uuid "8e75ef26-a629-4953-8886-ff62d030431d")
-		)
-		(pin "1"
-			(uuid "04f4704e-e4b7-43c1-ab58-d6aec2dc9617")
-		)
-		(pin "3"
-			(uuid "2d6a1422-67bf-4176-9af4-c1f005bfe6ca")
-		)
-		(instances
-			(project ""
-				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 196.85 66.04 0)
 		(unit 1)
@@ -8342,7 +7658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 66.04 90)
 			(effects
 				(font
@@ -8410,7 +7726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Switch_Power"
+		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -8486,7 +7802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 195.072 38.1 90)
 			(effects
 				(font
@@ -8556,7 +7872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 59.182 100.33 90)
 			(effects
 				(font
