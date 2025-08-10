@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.05,
+        0.076,
         0.1,
         0.2
       ],
@@ -511,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plots/",
+      "plot": "export/plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

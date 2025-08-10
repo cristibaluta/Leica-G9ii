@@ -1,0 +1,242 @@
+(footprint "FPC-1Row-7Pins-0.40mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0871SA1, 71 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator")
+	(tags "connector JAE  top entry")
+	(property "Reference" "REF**"
+		(at -0.01 -4.15 0)
+		(layer "F.SilkS")
+		(uuid "7e885577-0b85-410c-b2e3-3c41d4115228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FPC-1Row-7Pins-0.40mm"
+		(at -0.02 4 0)
+		(layer "F.Fab")
+		(uuid "8c9315a3-1572-4095-9cdc-fc3c1f1d511a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 8 -8.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca5b3021-ce60-4946-b252-2052caf95615")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 8 -8.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "703dec8a-bab5-4a30-9c8a-df058fd7d5b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.62 1.94) (xy -1.62 0.56) (xy 1.62 0.56) (xy 1.62 1.94)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d0866a99-be22-49de-8251-92ce6e752e05")
+	)
+	(fp_line
+		(start -2.63 -0.21)
+		(end -2.63 -1.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8e8fdbd2-f919-444c-8746-fdccfba42218")
+	)
+	(fp_line
+		(start -2.13 -1.21)
+		(end -2.63 -1.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a13b6186-1c4d-4be7-a92b-56af0da82f6b")
+	)
+	(fp_line
+		(start -1.63 -0.21)
+		(end -2.63 -0.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1947f47c-cb35-4ecd-bedd-7264145fa7ed")
+	)
+	(fp_line
+		(start -1.625 1.96)
+		(end -1.625 -0.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "532416c3-0e94-4521-8936-d9dea1e84ddf")
+	)
+	(fp_line
+		(start -1.625 1.96)
+		(end 1.625 1.96)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "efd0b412-cdb6-4a85-ad50-87dc417cab33")
+	)
+	(fp_line
+		(start 1.625 1.96)
+		(end 1.625 -0.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be81bc27-e973-4a4c-8065-02a57d3a3736")
+	)
+	(fp_line
+		(start 1.63 -0.21)
+		(end 2.63 -0.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b5a442a-95b9-4afa-8799-3e14b81ab021")
+	)
+	(fp_line
+		(start 2.13 -1.21)
+		(end 2.63 -1.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "baf31b92-5079-426b-9420-b9bc38d49c66")
+	)
+	(fp_line
+		(start 2.63 -0.21)
+		(end 2.63 -1.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "53f5c971-3a96-4068-b334-a1740205bcfc")
+	)
+	(fp_rect
+		(start -1.96 -1.43)
+		(end 1.99 2.17)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c2908ca9-60a9-40c7-8a5b-2c6cc1e59c5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 -2.8 0)
+		(layer "F.Fab")
+		(uuid "bf40c978-ac1d-4b39-bedd-47faad4a9d29")
+		(effects
+			(font
+				(size 0.71 0.71)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "a07cd77b-28d5-4983-9209-bd7af2832445")
+	)
+	(pad "2" smd rect
+		(at -0.8 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "0fdbec59-1b6d-4988-ac39-5294a610604c")
+	)
+	(pad "3" smd rect
+		(at -0.4 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "e57df4fc-28a9-469b-90f6-ffb6c44781c7")
+	)
+	(pad "4" smd rect
+		(at 0 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "c30686e1-17f3-426c-ac2a-709511c64710")
+	)
+	(pad "5" smd rect
+		(at 0.4 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "cdd8c241-1b8e-4972-b664-70ea23b21138")
+	)
+	(pad "6" smd rect
+		(at 0.8 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "6c2bbfd7-d5dd-4982-8f20-9a62ff8c5600")
+	)
+	(pad "7" smd rect
+		(at 1.2 1.4)
+		(size 0.3 0.73)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.02)
+		(uuid "c8f447f5-d9d2-47f8-a733-c8354a30d041")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/JAE_FF0871SA1_2Rows-71Pins_P0.40mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

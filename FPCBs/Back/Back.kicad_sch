@@ -4563,7 +4563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 175.26 28.448 90)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 139.3952 73.66 0)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Leica-G9ii:Connector-1Row-5Pins-0.40mm"
 			(at 220.98 106.68 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+		(property "Datasheet" ""
 			(at 220.98 104.14 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 220.98 38.608 90)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Connector-1Row-6Pins-0.40mm"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:FPC-1Row-7Pins-0.38mm"
+		(property "Footprint" "Leica-G9ii:FPC-1Row-5Pins-0.40mm"
 			(at 25.4 158.75 0)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 129.2352 73.66 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Leica-G9ii:R_2x1mm"
 			(at 220.98 76.708 90)
 			(effects
 				(font
@@ -5952,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Connector-1Row-5Pins-0.40mm"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:FPC-2Rows-35Pins-0.23mm"
+		(property "Footprint" "Leica-G9ii:FPC-2Rows-35Pins-0.5mm"
 			(at 130.81 157.48 0)
 			(effects
 				(font
@@ -6270,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:FPC-1Row-7Pins-0.38mm"
+		(property "Footprint" "Leica-G9ii:FPC-1Row-7Pins-0.40mm"
 			(at 88.9 138.43 0)
 			(effects
 				(font

@@ -1,0 +1,142 @@
+(footprint "Connector-1Row-6Pins-0.40mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hirose 0.30mm Pitch FFC/FPC, FH26-61S-0.3SHW, 61 Circuits (https://www.hirose.com/en/product/document?clcode=&productname=&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en), generated with kicad-footprint-generator")
+	(tags "connector Hirose  horizontal")
+	(property "Reference" "REF**"
+		(at -0.02 -4.14 0)
+		(layer "F.SilkS")
+		(uuid "462665c0-ee20-47df-9284-c54b97ccedba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector-1Row-6Pins-0.40mm"
+		(at 0.05 6.58 0)
+		(layer "F.Fab")
+		(uuid "a71cd75f-c4d3-4149-8e09-57aba155cf09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.075 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "504697fa-588c-4992-8f79-d4c62e759947")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.075 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f72f90b-9d10-47ce-9b0d-96a1ba5e88f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.6 -2)
+		(end 1.6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "57380a3a-e04d-4706-b7e4-9f7f68a30b85")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.66 0)
+		(layer "F.Fab")
+		(uuid "5381f3ba-19f8-48dd-bff0-12c13121c838")
+		(effects
+			(font
+				(size 0.81 0.81)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -1.1 1.82)
+		(size 0.5 0.5)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "588d8a27-8c82-43bc-8c9d-ddb3ad60bf4f")
+	)
+	(pad "" smd roundrect
+		(at -1.09 -1.82)
+		(size 0.5 0.5)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7c649d92-3dc7-44d0-8d70-7072c023f952")
+	)
+	(pad "1" smd rect
+		(at 1.4 -1)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0561a286-8ce5-4fee-9239-13d19c35a4e0")
+	)
+	(pad "2" smd rect
+		(at 1.4 -0.6)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d6895980-99e8-4a8d-a400-b427f019a3e2")
+	)
+	(pad "3" smd rect
+		(at 1.4 -0.2)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "756b863b-6d41-4532-b38e-58a7e090eb74")
+	)
+	(pad "4" smd rect
+		(at 1.4 0.2)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8f515f4-c618-4e12-8259-32493c3b9d94")
+	)
+	(pad "5" smd rect
+		(at 1.4 0.6)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4477c91a-4374-4bc4-b77d-3ba3194feb12")
+	)
+	(pad "6" smd rect
+		(at 1.4 1)
+		(size 0.8 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "835a4a86-d51a-4869-a6ba-7a0b7b252a06")
+	)
+	(pad "SH" smd rect
+		(at -1.1 -1.82)
+		(size 1 1)
+		(layers "F.Cu")
+		(uuid "40370252-9949-49e5-aff1-ca1e7ef55746")
+	)
+	(pad "SH" smd rect
+		(at -1.1 1.82)
+		(size 1 1)
+		(layers "F.Cu")
+		(uuid "f6120d6e-b390-4161-bec5-a2507be0149c")
+	)
+	(embedded_fonts no)
+)
