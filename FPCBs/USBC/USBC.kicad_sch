@@ -1115,7 +1115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB-C-12-Pin-MidMount"
+		(property "Footprint" "Leica-G9ii:USBC-12Pins"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -1247,7 +1247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB-C-12-Pin-MidMount"
+		(property "Footprint" "Leica-G9ii:USBC-12Pins"
 			(at 125.73 96.52 0)
 			(effects
 				(font
