@@ -1107,7 +1107,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Plug"
+		(property "Value" "USB_C_Mainboard"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -1115,7 +1115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:USBC-12Pins"
+		(property "Footprint" "Leica-G9ii:FPC_Mainboard_USBC-12Pins"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -1232,22 +1232,24 @@
 		(fields_autoplaced yes)
 		(uuid "ab28d381-1173-4797-878d-7bff27b1ed7f")
 		(property "Reference" "P2"
-			(at 129.54 63.5 0)
+			(at 140.97 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Plug"
-			(at 129.54 66.04 0)
+		(property "Value" "USB_C_Connector"
+			(at 140.97 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:USBC-12Pins"
+		(property "Footprint" "Leica-G9ii:Connector_USBC-12Pins"
 			(at 125.73 96.52 0)
 			(effects
 				(font
