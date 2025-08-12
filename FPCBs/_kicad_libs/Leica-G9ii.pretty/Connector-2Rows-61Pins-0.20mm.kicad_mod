@@ -80,8 +80,6 @@
 		(at -1.475 -6)
 		(size 0.8 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.01)
-		(clearance 0.01)
 		(uuid "566f4c79-f0a8-4e65-a680-46e3ec547cc9")
 	)
 	(pad "2" smd rect
@@ -94,8 +92,6 @@
 		(at -1.475 -5.6)
 		(size 0.8 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.01)
-		(clearance 0.01)
 		(uuid "1dcde49d-432f-4f63-a5bb-8f94d8b43e6b")
 	)
 	(pad "4" smd rect
@@ -108,8 +104,6 @@
 		(at -1.475 -5.2)
 		(size 0.8 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.01)
-		(clearance 0.01)
 		(uuid "eb038319-058a-4a0e-bd9d-7c6a726bdcf8")
 	)
 	(pad "6" smd rect
