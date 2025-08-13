@@ -200,7 +200,7 @@
 	)
 	(pad "2" smd custom
 		(at -3.95 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -210,7 +210,7 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
@@ -240,7 +240,7 @@
 	)
 	(pad "4" smd custom
 		(at -3.45625 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -250,13 +250,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "1f9584bf-ce67-47da-9773-710c5ada2b9d")
+		(uuid "6cad9b28-4bce-44e1-a760-6ad8f1499b51")
 	)
 	(pad "5" smd custom
 		(at -3.211765 1.45)
@@ -280,7 +280,7 @@
 	)
 	(pad "6" smd custom
 		(at -2.9625 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -290,13 +290,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "91a282d9-870a-494a-afcd-56eb0064bedb")
+		(uuid "b01d0b38-1b84-498f-ad83-39f9ff9dc0c6")
 	)
 	(pad "7" smd custom
 		(at -2.717647 1.45)
@@ -320,7 +320,7 @@
 	)
 	(pad "8" smd custom
 		(at -2.46875 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -330,13 +330,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "517fd002-56b6-4da6-a0aa-209c5dcb8883")
+		(uuid "d47603d8-10f7-497c-81c9-2bf1e2b43812")
 	)
 	(pad "9" smd custom
 		(at -2.223529 1.45)
@@ -360,7 +360,7 @@
 	)
 	(pad "10" smd custom
 		(at -1.975 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -370,13 +370,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "b96efba0-1553-4808-9098-7720b115955e")
+		(uuid "b1e8c493-4d81-4b56-9a3d-693b968bd8ae")
 	)
 	(pad "11" smd custom
 		(at -1.729412 1.45)
@@ -400,7 +400,7 @@
 	)
 	(pad "12" smd custom
 		(at -1.48125 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -410,13 +410,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "5e43eca1-5208-458d-90d5-85f56cf04f87")
+		(uuid "1e52b168-9bb4-4cf7-ac2f-7c064da0a375")
 	)
 	(pad "13" smd custom
 		(at -1.235294 1.45)
@@ -440,7 +440,7 @@
 	)
 	(pad "14" smd custom
 		(at -0.9875 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -450,13 +450,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "a69aa920-397c-412f-bf28-7d1705d8c78d")
+		(uuid "07dbd90a-8eaf-4475-b671-2403486c1f77")
 	)
 	(pad "15" smd custom
 		(at -0.741176 1.45)
@@ -479,8 +479,8 @@
 		(uuid "3cf0775d-a158-4677-8abe-1dc4a5372380")
 	)
 	(pad "16" smd custom
-		(at -0.49375 0.7)
-		(size 0.3 0.5)
+		(at -0.49 0.7)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -490,13 +490,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "8de14835-b202-40af-b52c-1f3a676b67e3")
+		(uuid "d51dfea6-c989-45a1-829b-ef8ae3242cb3")
 	)
 	(pad "17" smd custom
 		(at -0.247059 1.45)
@@ -520,7 +520,7 @@
 	)
 	(pad "18" smd custom
 		(at 0 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -530,13 +530,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "43d79b15-942c-4255-b5b8-dc3de67eb622")
+		(uuid "3921c5dd-fc11-4ee0-ba4a-921a66e7a1b2")
 	)
 	(pad "19" smd custom
 		(at 0.247059 1.45)
@@ -560,7 +560,7 @@
 	)
 	(pad "20" smd custom
 		(at 0.49375 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -570,13 +570,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "0ae29ef9-8afb-451f-a680-cfedfd6dce17")
+		(uuid "cc7327d2-604c-4f96-8480-a4313e959e06")
 	)
 	(pad "21" smd custom
 		(at 0.741176 1.45)
@@ -600,7 +600,7 @@
 	)
 	(pad "22" smd custom
 		(at 0.9875 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -610,13 +610,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "989dcaa6-73e4-4e7b-942e-2725e634effa")
+		(uuid "cef92c41-f403-4c4a-8747-a830475a90ac")
 	)
 	(pad "23" smd custom
 		(at 1.235294 1.45)
@@ -640,7 +640,7 @@
 	)
 	(pad "24" smd custom
 		(at 1.48125 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -650,13 +650,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "f4b88b8d-b1ba-43ac-ae39-3f7e36df3dd7")
+		(uuid "d4664884-77ab-4df4-87c1-2fbc9c906664")
 	)
 	(pad "25" smd custom
 		(at 1.729412 1.45)
@@ -679,8 +679,8 @@
 		(uuid "78c979b7-b4c0-4703-907e-652f00dc5d88")
 	)
 	(pad "26" smd custom
-		(at 1.975 0.7)
-		(size 0.3 0.5)
+		(at 1.98 0.7)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -690,13 +690,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "eb0bce75-33cd-406a-8163-1175d1c8cdf2")
+		(uuid "e2098f44-0386-4c7a-a87f-372b4ba1a72f")
 	)
 	(pad "27" smd custom
 		(at 2.223529 1.45)
@@ -720,7 +720,7 @@
 	)
 	(pad "28" smd custom
 		(at 2.46875 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -730,13 +730,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "4ab5aaf7-76f5-4895-8f30-8acc87dfec6f")
+		(uuid "a409ec70-15ee-4dd2-860c-49990019bd49")
 	)
 	(pad "29" smd custom
 		(at 2.717647 1.45)
@@ -760,7 +760,7 @@
 	)
 	(pad "30" smd custom
 		(at 2.9625 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -770,13 +770,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "dc0eebc0-b068-46d8-824f-62024867832a")
+		(uuid "bc053413-9871-4e79-a843-0e1de926d161")
 	)
 	(pad "31" smd custom
 		(at 3.211765 1.45)
@@ -800,7 +800,7 @@
 	)
 	(pad "32" smd custom
 		(at 3.45625 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -810,13 +810,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "3da1a961-8a9f-46e1-9166-5b510c5a24a8")
+		(uuid "c2e97ed1-0bb5-49e3-9cc5-24df8ab4d76c")
 	)
 	(pad "33" smd custom
 		(at 3.705882 1.45)
@@ -840,7 +840,7 @@
 	)
 	(pad "34" smd custom
 		(at 3.95 0.7)
-		(size 0.3 0.5)
+		(size 0.24 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.02)
 		(options
@@ -850,13 +850,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.15 -0.3) (xy -0.15 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.15 0.275) (xy 0.15 -0.3)
+					(xy -0.12 -0.3) (xy -0.12 0.275) (xy -0.05 0.315) (xy 0.05 0.315) (xy 0.12 0.275) (xy 0.12 -0.3)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "fd62e704-d2f2-4a9d-81cb-462864f7e8ab")
+		(uuid "ffb3b913-999a-4efa-9afc-afeb5614c495")
 	)
 	(pad "35" smd custom
 		(at 4.2 1.45)
