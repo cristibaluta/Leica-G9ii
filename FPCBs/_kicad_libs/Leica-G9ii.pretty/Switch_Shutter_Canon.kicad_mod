@@ -1,4 +1,4 @@
-(footprint "Switch_Shutter_1"
+(footprint "Switch_Shutter_Canon"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Switch_Shutter_1"
+	(property "Value" "Switch_Shutter_Canon"
 		(at 0 4.8 0)
 		(layer "F.Fab")
 		(uuid "b7183a23-560f-4d3a-bd9b-8cac5f9aa653")
@@ -55,11 +55,11 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -3 -3)
-		(end 3 3)
+		(start -3.15 -3.6)
+		(end 3.15 3.6)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
@@ -77,53 +77,53 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at -1.8 -2.32)
+		(at -3.25 -1.55)
 		(size 1 1)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "3ec93620-5590-4a25-a032-27b99d32782d")
 	)
 	(pad "" smd roundrect
-		(at -1.78 2.29)
+		(at -3.25 1.55)
 		(size 1 1)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "c722673d-ca97-48fc-8930-58ef2ac9fa73")
 	)
 	(pad "" smd roundrect
-		(at 1.84 -2.3)
+		(at 3.25 -1.55)
 		(size 1 1)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "e8b0ef9d-5872-45ac-b56b-7f327ee6b77f")
 	)
 	(pad "" smd roundrect
-		(at 1.88 2.29)
+		(at 3.25 1.55)
 		(size 1 1)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "6f42bad5-25d6-40a4-a173-969298f3a1d0")
 	)
 	(pad "1" smd rect
-		(at -1.78 2.29)
+		(at -3.25 1.55)
 		(size 1.8 1.8)
 		(layers "F.Cu")
 		(uuid "46f8e855-7493-4421-96b2-6b30a2b5f695")
 	)
 	(pad "2" smd rect
-		(at 1.86 2.31)
+		(at 3.25 1.55)
 		(size 1.8 1.8)
 		(layers "F.Cu")
 		(uuid "df4e33f3-fbc0-4886-9efe-77123849a93a")
 	)
 	(pad "3" smd rect
-		(at -1.8 -2.32)
+		(at -3.25 -1.55)
 		(size 1.8 1.8)
 		(layers "F.Cu")
 		(uuid "f737a834-211b-4cc4-af67-ae585fdd59a8")
 	)
 	(pad "3" smd rect
-		(at 1.84 -2.3)
+		(at 3.25 -1.55)
 		(size 1.8 1.8)
 		(layers "F.Cu")
 		(uuid "64d8a80d-4254-45e5-983f-0174f34791f5")
