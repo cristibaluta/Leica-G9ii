@@ -4923,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Connector-1Row-5Pins-0.40mm"
+		(property "Footprint" "Leica-G9ii:back_dial"
 			(at 220.98 106.68 0)
 			(effects
 				(font

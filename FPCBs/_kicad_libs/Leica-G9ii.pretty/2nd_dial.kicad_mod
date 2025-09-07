@@ -6,7 +6,7 @@
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
 	(property "Reference" "REF**"
-		(at -0.01 1.35 0)
+		(at 0 -1.48 0)
 		(layer "F.SilkS")
 		(uuid "66289aaa-fdf3-4641-8bc3-079253750b95")
 		(effects
@@ -66,7 +66,7 @@
 		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.01 2.51 0)
+		(at 0.01 2.18 0)
 		(layer "F.Fab")
 		(uuid "cd381f09-516f-45b0-a8c5-a5bc1a0fd927")
 		(effects
