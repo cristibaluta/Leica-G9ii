@@ -54,6 +54,28 @@
 		)
 	)
 	(attr smd)
+	(fp_arc
+		(start -4.17 4.21)
+		(mid -5.925613 0.010656)
+		(end -4.185114 -4.194975)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "a62d64b4-3211-4e81-b386-947170dda8b4")
+	)
+	(fp_arc
+		(start 5.481795 -2.291991)
+		(mid 5.502647 2.241467)
+		(end 2.32 5.47)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "cdb43787-a228-4ff2-95f2-64e3ad0b6ea8")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 2 0)
