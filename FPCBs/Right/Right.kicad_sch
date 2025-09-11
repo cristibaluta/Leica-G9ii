@@ -4126,18 +4126,6 @@
 		(uuid "192f4915-fa5e-4562-8a82-70e1c3f2bb5a")
 	)
 	(junction
-		(at 60.96 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19920854-12b6-4d0d-836f-d1adbb5f8a38")
-	)
-	(junction
-		(at 60.96 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c7c8151-74aa-4e46-af8b-4f4b4b82e85e")
-	)
-	(junction
 		(at 196.85 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4220,12 +4208,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9169be25-3da4-4445-8fbe-21a6bba61e76")
-	)
-	(junction
-		(at 71.12 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a3cacd1-23e2-429f-8b57-90ca3d9c3dba")
 	)
 	(junction
 		(at 180.34 92.71)
@@ -4701,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 57.15) (xy 60.96 62.23)
+			(xy 60.96 45.72) (xy 60.96 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4718,16 +4700,6 @@
 			(type default)
 		)
 		(uuid "4b409f2f-f169-4ffa-8f13-e3b0dee74eef")
-	)
-	(wire
-		(pts
-			(xy 60.96 45.72) (xy 60.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc92640-5559-4237-bf77-08b4ce3a14a2")
 	)
 	(wire
 		(pts
@@ -4791,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 59.69) (xy 71.12 62.23)
+			(xy 71.12 43.18) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5038,16 +5010,6 @@
 			(type default)
 		)
 		(uuid "7051cd2f-110a-44fe-8432-ec245b9c3b42")
-	)
-	(wire
-		(pts
-			(xy 71.12 43.18) (xy 71.12 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7057c648-e0fa-4454-ae29-0aad330ccc6e")
 	)
 	(wire
 		(pts
@@ -5688,16 +5650,6 @@
 			(type default)
 		)
 		(uuid "c59992d8-7fd1-4a59-8a16-73299171efae")
-	)
-	(wire
-		(pts
-			(xy 60.96 62.23) (xy 60.96 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c610af6e-ceee-41cc-b0a3-fdd323ea2cc5")
 	)
 	(wire
 		(pts
@@ -7807,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
+		(property "Footprint" "Leica-G9ii:Switch_ON_OFF"
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -7847,78 +7799,6 @@
 			(project "Right"
 				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT_312")
-		(at 66.04 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9d20e36-9010-404c-97b2-46c5cccaa226")
-		(property "Reference" "SW6"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ON/OFF"
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Leica-G9ii:Switch_Detection_Bidirectional"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 66.04 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1d1dad11-9599-4eec-bd45-977f16631cf2")
-		)
-		(pin "2"
-			(uuid "ac12d39e-e3c3-48c9-b573-d437e458e4ed")
-		)
-		(pin "1"
-			(uuid "42750f9f-9c4e-434d-8f65-0dda835bafc8")
-		)
-		(instances
-			(project ""
-				(path "/4f08b7d7-0978-402f-8bca-f87716f6be32"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
