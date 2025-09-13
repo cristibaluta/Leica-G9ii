@@ -1,4 +1,4 @@
-(footprint "Switch_Shutter_Canon"
+(footprint "Shutter_Olympus"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "package for Kodenshi SG-105 with PCB cutout, light-direction upwards, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf")
 	(tags "refective opto couple photo coupler")
 	(property "Reference" "REF**"
-		(at 0.01 -4.03 0)
+		(at -0.01 -5.49 0)
 		(layer "F.SilkS")
 		(uuid "66289aaa-fdf3-4641-8bc3-079253750b95")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Switch_Shutter_Canon"
-		(at 0 4.8 0)
+	(property "Value" "Shutter_Olympus"
+		(at 0 5.55 0)
 		(layer "F.Fab")
 		(uuid "b7183a23-560f-4d3a-bd9b-8cac5f9aa653")
 		(effects
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -3.15 -3.6)
-		(end 3.15 3.6)
+		(start -3 -3.13)
+		(end 3 3.13)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -64,6 +64,26 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ce516005-9da2-4f4a-93ac-7e0ab922686c")
+	)
+	(fp_line
+		(start -3 -4)
+		(end 3 -4)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eddf8cfb-c314-4cfc-be94-8f06f30b176c")
+	)
+	(fp_line
+		(start -3 4)
+		(end 3 4)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7be8890a-e289-4bb9-a5bd-943192396088")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.01 0.05 0)
@@ -77,54 +97,54 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at -3.25 -1.55)
-		(size 1 1)
+		(at -2.23 -3.4)
+		(size 1 0.8)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "3ec93620-5590-4a25-a032-27b99d32782d")
 	)
 	(pad "" smd roundrect
-		(at -3.25 1.55)
-		(size 1 1)
+		(at -2.23 3.4)
+		(size 1 0.8)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "c722673d-ca97-48fc-8930-58ef2ac9fa73")
 	)
 	(pad "" smd roundrect
-		(at 3.25 -1.55)
-		(size 1 1)
+		(at 2.23 -3.4)
+		(size 1 0.8)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "e8b0ef9d-5872-45ac-b56b-7f327ee6b77f")
 	)
 	(pad "" smd roundrect
-		(at 3.25 1.55)
-		(size 1 1)
+		(at 2.23 3.4)
+		(size 1 0.8)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1388888889)
 		(uuid "6f42bad5-25d6-40a4-a173-969298f3a1d0")
 	)
 	(pad "1" smd rect
-		(at -3.25 1.55)
-		(size 1.8 1.8)
+		(at -1.85 2.9)
+		(size 2 2)
 		(layers "F.Cu")
 		(uuid "46f8e855-7493-4421-96b2-6b30a2b5f695")
 	)
 	(pad "2" smd rect
-		(at 3.25 1.55)
-		(size 1.8 1.8)
-		(layers "F.Cu")
-		(uuid "df4e33f3-fbc0-4886-9efe-77123849a93a")
-	)
-	(pad "3" smd rect
-		(at -3.25 -1.55)
-		(size 1.8 1.8)
+		(at -1.85 -2.9)
+		(size 2 2)
 		(layers "F.Cu")
 		(uuid "f737a834-211b-4cc4-af67-ae585fdd59a8")
 	)
 	(pad "3" smd rect
-		(at 3.25 -1.55)
-		(size 1.8 1.8)
+		(at 1.85 2.9)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "df4e33f3-fbc0-4886-9efe-77123849a93a")
+	)
+	(pad "4" smd rect
+		(at 1.85 -2.9)
+		(size 2 2)
 		(layers "F.Cu")
 		(uuid "64d8a80d-4254-45e5-983f-0174f34791f5")
 	)
