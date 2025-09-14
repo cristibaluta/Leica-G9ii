@@ -1,0 +1,141 @@
+(footprint "Connector-Springs-3Pins"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex  top entry")
+	(property "Reference" "REF**"
+		(at 0 -6.59 0)
+		(layer "F.SilkS")
+		(uuid "28f0f706-65b3-46d4-aaf2-16ab15f59e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector-Springs-3Pins"
+		(at -0.03 6.08 0)
+		(layer "F.Fab")
+		(uuid "fc31130f-77a4-4524-9b89-6ee471654171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eea1966f-9eff-49ec-99e7-7351f6f85c19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2a19f78-fc87-47da-b936-b647f3a4905b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.25 -2.75)
+		(end 3.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c2fa30e2-c7cb-495b-b49f-57f3cdbbd8a8")
+	)
+	(fp_rect
+		(start -2.6 -1.5)
+		(end 2.6 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af1f1959-5259-450e-a82d-99e6f4963e17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.55 0)
+		(layer "F.Fab")
+		(uuid "7b93d15b-b696-4f08-84c7-5c57578ceca5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -1.9 -3.75)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "d47b88a0-ea0c-45b6-9fbc-328ec95422dc")
+	)
+	(pad "" smd roundrect
+		(at 0 -3.75)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "e736b320-a78f-4e5d-a9ac-c215abc2a82d")
+	)
+	(pad "" smd roundrect
+		(at 1.9 -3.75)
+		(size 1 1)
+		(layers "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "ed29832b-08f2-4afc-ac3d-31dd217b8ac3")
+	)
+	(pad "1" smd rect
+		(at -2.2 -3.75)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "5a7a887f-3261-428c-9419-52f421e35d35")
+	)
+	(pad "2" smd rect
+		(at 0 -3.75)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "298b6dea-ad73-443c-ac89-ec4a427ac0a2")
+	)
+	(pad "3" smd rect
+		(at 2.2 -3.75)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "c25d556a-f903-4e76-a42c-2b9b00e181ae")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
