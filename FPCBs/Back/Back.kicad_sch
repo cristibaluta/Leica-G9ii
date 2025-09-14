@@ -4563,7 +4563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 175.26 28.448 90)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 139.3952 73.66 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Value" "WHEEL"
+		(property "Value" "BACK_WHEEL"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 220.98 38.608 90)
 			(effects
 				(font
@@ -5437,7 +5437,7 @@
 				)
 			)
 		)
-		(property "Value" "AFON"
+		(property "Value" "AF/ON"
 			(at 64.77 33.02 0)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 129.2352 73.66 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 220.98 76.708 90)
 			(effects
 				(font
