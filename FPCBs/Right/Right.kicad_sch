@@ -7345,7 +7345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 50.292 102.87 90)
 			(effects
 				(font
