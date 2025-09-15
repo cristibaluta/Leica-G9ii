@@ -6,7 +6,7 @@
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.43 0)
+		(at 0.01 -2.6 0)
 		(layer "F.SilkS")
 		(uuid "f438a4ea-30b0-4034-817b-07d9ed42f97f")
 		(effects
@@ -53,18 +53,18 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.03 -0.35)
-		(end 1.03 0.34)
+		(start -1.395 -0.57)
+		(end 1.395 0.57)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cac0460f-6ce7-4bda-b677-ce0f1ae4ce2a")
+		(uuid "43e94d19-d793-4957-9087-7dda63a5bd0a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.42 0 0)
+		(at 0.01 -1.41 0)
 		(layer "F.Fab")
 		(uuid "abb3c2d0-9578-4d51-9157-afd14bc0920f")
 		(effects
@@ -75,32 +75,30 @@
 		)
 	)
 	(pad "" smd roundrect
-		(at -0.8 0)
-		(size 0.6 0.8)
+		(at -0.9 0)
+		(size 0.8 0.95)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "4fcdf3fa-924a-4f98-91f1-1a359622253f")
+		(uuid "30725904-3468-418b-bbe8-0154f06ca373")
 	)
 	(pad "" smd roundrect
-		(at 0.8 0)
-		(size 0.6 0.8)
+		(at 0.9 0)
+		(size 0.8 0.95)
 		(layers "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "f1846787-1c17-44fa-8520-4f691473a9b2")
+		(uuid "b3d2bec1-99e8-4b6f-9aa3-0a7a7d4870f9")
 	)
-	(pad "1" smd roundrect
-		(at -0.8 0)
-		(size 0.8 1)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.2 1.2)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
-		(uuid "163671d0-11a1-499b-aabf-986f74cd1b9e")
+		(uuid "a2490fa8-54df-424b-93cd-e040acf85e6d")
 	)
-	(pad "2" smd roundrect
-		(at 0.8 0)
-		(size 0.8 1)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.2 1.2)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
-		(uuid "88570162-6cbc-4bc6-94b6-ad2cba20d8af")
+		(uuid "cfb6c69a-de6c-4010-b3f7-cd16b09ea797")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"

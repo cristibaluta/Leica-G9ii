@@ -4176,13 +4176,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1-2 focus\n2-3 common\n3-4 shutter"
+	(text "1 focus\n2-3 common\n4 shutter"
 		(exclude_from_sim no)
-		(at 244.094 112.522 0)
+		(at 240.538 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "183cdb6e-7b6d-4b37-aaa1-32a802008d90")
 	)
@@ -4203,12 +4204,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "235ac958-8ee6-478c-9687-d968a16e4131")
-	)
-	(junction
-		(at 132.08 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2371a966-4ea1-49e9-8a22-8f56993d541f")
 	)
 	(junction
 		(at 196.85 69.85)
@@ -4241,10 +4236,22 @@
 		(uuid "40eee2ff-8a52-44db-8768-8a78bc6ef61b")
 	)
 	(junction
+		(at 132.08 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b498a60-fe1f-4b79-9518-b86b1689acb8")
+	)
+	(junction
 		(at 60.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ed86474-2d56-4f84-8df7-b4d38791c8b4")
+	)
+	(junction
+		(at 135.89 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "598ec874-ed52-4fdd-ad43-31a3d67dca0f")
 	)
 	(junction
 		(at 196.85 77.47)
@@ -4257,12 +4264,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fa21ba1-3a1c-4b21-9db0-c60c3cfdcb75")
-	)
-	(junction
-		(at 132.08 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67a0a5b2-fbc6-42d7-a2db-7db809c348f5")
 	)
 	(junction
 		(at 93.98 85.09)
@@ -4283,28 +4284,28 @@
 		(uuid "9304e3d1-49b4-40b1-905a-c44c42abdc94")
 	)
 	(junction
-		(at 148.59 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e3512e5-0706-418d-bb2f-ad365fcbe39c")
-	)
-	(junction
 		(at 180.34 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2e3fff2-ed62-40cd-bd7a-d3665c56742b")
 	)
 	(junction
-		(at 132.08 121.92)
+		(at 154.94 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2f16d63-3bba-4c48-bc92-82519df485f0")
+		(uuid "a6e64b5d-83c2-4c6f-80d0-60281a6b8f18")
 	)
 	(junction
-		(at 154.94 111.76)
+		(at 148.59 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5aa058d-e1ea-45c6-a1d5-a3a67e6966ee")
+		(uuid "c4890dea-9e23-4e9c-a81f-52073efb4ae7")
+	)
+	(junction
+		(at 132.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34717fd-4aa5-4375-b643-b8faef7aa368")
 	)
 	(junction
 		(at 132.08 114.3)
@@ -4319,22 +4320,40 @@
 		(uuid "d7a40da7-4d3f-426a-8c22-02865bc92697")
 	)
 	(junction
+		(at 132.08 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8168cb1-5111-45dc-85b0-64dab7e1e780")
+	)
+	(junction
+		(at 135.89 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5d0683-9731-466d-86da-1180d1507c70")
+	)
+	(junction
 		(at 172.72 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc706596-bcbb-4fdf-ac46-2504dc300058")
 	)
 	(junction
-		(at 132.08 124.46)
+		(at 148.59 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcf5a18a-4d21-44ca-aa07-c3ed27fb6290")
+		(uuid "eabc8586-7839-4a85-b79c-4cf00bc7c729")
 	)
 	(junction
 		(at 234.95 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f025cc7f-87e2-4372-af79-edc087f7a653")
+	)
+	(junction
+		(at 132.08 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ca11bc-c447-4eea-9c53-e2555196ee95")
 	)
 	(wire
 		(pts
@@ -4408,6 +4427,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 107.95) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12be2aba-15f6-4da0-b642-f2a4a49d3f5d")
+	)
+	(wire
+		(pts
 			(xy 78.74 72.39) (xy 80.01 72.39)
 		)
 		(stroke
@@ -4478,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 137.16) (xy 146.05 121.92)
+			(xy 146.05 137.16) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4528,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 105.41 109.22)
+			(xy 104.14 85.09) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4618,7 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 132.08 121.92)
+			(xy 118.11 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 113.03 82.55)
+			(xy 92.71 82.55) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 121.92) (xy 146.05 121.92)
+			(xy 132.08 116.84) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4708,7 +4737,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 121.92 111.76)
+			(xy 121.92 87.63) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4728,7 +4757,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 132.08 109.22)
+			(xy 135.89 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48076e4e-8003-431f-96ac-80b74db589a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4778,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 129.54)
+			(xy 107.95 82.55) (xy 107.95 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4938,6 +4977,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 100.33) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628c2d7c-ce27-41b4-bf5c-4f59b82dea3f")
+	)
+	(wire
+		(pts
 			(xy 177.8 54.61) (xy 190.5 54.61)
 		)
 		(stroke
@@ -4978,7 +5027,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 118.11) (xy 148.59 109.22)
+			(xy 148.59 118.11) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +5087,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 124.46) (xy 132.08 124.46)
+			(xy 154.94 104.14) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb13df1-4eb6-40fb-b770-cde76b0470ff")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 132.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5088,6 +5147,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 111.76) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778baca3-fcf5-457a-93b8-0866b8fdc9f8")
+	)
+	(wire
+		(pts
 			(xy 171.45 127) (xy 171.45 148.59)
 		)
 		(stroke
@@ -5098,6 +5167,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 109.22) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd5bdb1-94fe-41ea-93ca-8830284db961")
+	)
+	(wire
+		(pts
 			(xy 93.98 109.22) (xy 93.98 97.79)
 		)
 		(stroke
@@ -5105,16 +5184,6 @@
 			(type default)
 		)
 		(uuid "7bf774a7-4fb1-499e-8eb2-ab39a169320f")
-	)
-	(wire
-		(pts
-			(xy 154.94 104.14) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6fad05-379c-4c28-bd8a-8c3a27e29611")
 	)
 	(wire
 		(pts
@@ -5198,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 119.38 81.28)
+			(xy 78.74 81.28) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5215,16 +5284,6 @@
 			(type default)
 		)
 		(uuid "8a3c4c83-51c9-469d-8064-334de5f350a0")
-	)
-	(wire
-		(pts
-			(xy 121.92 111.76) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5b8a7c-8b79-420e-b35d-9603b5c36f79")
 	)
 	(wire
 		(pts
@@ -5248,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 105.41 85.09)
+			(xy 93.98 85.09) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5258,7 +5317,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 148.59 109.22)
+			(xy 132.08 111.76) (xy 135.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5268,7 +5327,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 154.94 111.76)
+			(xy 121.92 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 116.84 124.46)
+			(xy 116.84 80.01) (xy 116.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5357,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 129.54) (xy 132.08 129.54)
+			(xy 107.95 129.54) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5368,13 +5427,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 148.59 109.22)
+			(xy 154.94 107.95) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92b60fbc-5425-43c0-8a56-ac26d9bc142e")
+		(uuid "933c1d0d-243c-4a7f-a461-4de001a0404f")
 	)
 	(wire
 		(pts
@@ -5568,6 +5627,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 119.38) (xy 135.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22c940d-5f70-4476-80c1-e0152331051a")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24865b0-a08f-4390-89f0-78ac981ce23c")
+	)
+	(wire
+		(pts
 			(xy 52.07 95.25) (xy 52.07 99.06)
 		)
 		(stroke
@@ -5688,7 +5767,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 144.78 138.43)
+			(xy 144.78 121.92) (xy 144.78 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5715,6 +5794,16 @@
 			(type default)
 		)
 		(uuid "c614a51f-ea80-44b5-92a7-8f6ede7640c4")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f4d257-1804-4e9f-9b71-f3b9419242bd")
 	)
 	(wire
 		(pts
@@ -5768,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 119.38 121.92)
+			(xy 118.11 81.28) (xy 118.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5878,6 +5967,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 107.95) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd47f42a-2fc5-4278-8ddc-3ffdb0f848b3")
+	)
+	(wire
+		(pts
 			(xy 172.72 104.14) (xy 172.72 114.3)
 		)
 		(stroke
@@ -5928,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 124.46) (xy 144.78 124.46)
+			(xy 132.08 121.92) (xy 144.78 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6270,7 +6369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 88.9 90)
 			(effects
 				(font
@@ -6554,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Leica-G9ii:Connector-2Rows-9Pins-0.60mm"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -6645,7 +6744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 53.34 90)
 			(effects
 				(font
@@ -6785,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 73.66 90)
 			(effects
 				(font
@@ -7387,7 +7486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 45.72 90)
 			(effects
 				(font
@@ -7457,7 +7556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 81.28 90)
 			(effects
 				(font
@@ -7527,7 +7626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 30.48 90)
 			(effects
 				(font
@@ -7669,7 +7768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 66.04 90)
 			(effects
 				(font
@@ -7739,7 +7838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:R_2x1mm"
+		(property "Footprint" "Leica-G9ii:R_0603"
 			(at 195.072 38.1 90)
 			(effects
 				(font
