@@ -4187,6 +4187,106 @@
 		)
 		(uuid "183cdb6e-7b6d-4b37-aaa1-32a802008d90")
 	)
+	(text "C1"
+		(exclude_from_sim no)
+		(at 194.056 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b44b15e-8964-43f5-ac21-e108b51a8423")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 194.31 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31fad828-efff-40f5-8fc1-0d6884fe994f")
+	)
+	(text "iA"
+		(exclude_from_sim no)
+		(at 194.056 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a663612-ab1d-4fb0-b868-9cedd030d50b")
+	)
+	(text "M"
+		(exclude_from_sim no)
+		(at 194.564 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "779edc2a-9f92-47df-9ed8-2e59fa4ac34c")
+	)
+	(text "C3"
+		(exclude_from_sim no)
+		(at 194.056 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc58382d-d3bf-45d0-801d-47ecb4d733f8")
+	)
+	(text "S&Q"
+		(exclude_from_sim no)
+		(at 193.04 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d39e7a86-a0e9-4d1b-90d6-3d0e6084c076")
+	)
+	(text "Movie"
+		(exclude_from_sim no)
+		(at 192.532 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbeecb71-bf3c-4abe-bb0c-632ed4fbef7a")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 194.564 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de7ff203-c3e7-4bd4-bde8-0dc5e9333d77")
+	)
+	(text "C2"
+		(exclude_from_sim no)
+		(at 194.056 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9606b03-c8b1-443e-9fc1-d663a33ace09")
+	)
+	(text "P"
+		(exclude_from_sim no)
+		(at 194.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec257759-bcb6-485a-8966-c51e8130d3bf")
+	)
 	(junction
 		(at 196.85 85.09)
 		(diameter 0)
