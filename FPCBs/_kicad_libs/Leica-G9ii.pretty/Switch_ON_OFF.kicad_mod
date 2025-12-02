@@ -84,8 +84,8 @@
 		(uuid "d87b0e6d-6a31-4dd9-9278-7450a022a136")
 	)
 	(pad "" smd roundrect
-		(at -2.11 4.22)
-		(size 3.2 1.4)
+		(at -3.11 4.22)
+		(size 1.2 1.4)
 		(layers "*.Paste" "*.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "6fc489a1-47e3-4b95-8276-f58f218e14dc")
@@ -121,9 +121,9 @@
 		(uuid "ae4e544d-3791-44ee-ad2b-6c4bfaaa4f82")
 	)
 	(pad "2" thru_hole rect
-		(at -2.11 4.22)
-		(size 4 2)
-		(drill oval 2.5 0.5)
+		(at -3.11 4.22)
+		(size 2 2)
+		(drill 0.5)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "f16a0deb-c689-440b-9445-349e0f879826")
