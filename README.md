@@ -6,82 +6,83 @@
 
 ## 📸 Overview
 
-This project is an attempt to make a beautiful small camera from a Lumix G9II body. The camera is focused on street photography and has some buttons removed.
+This project is an attempt to make a beautiful small camera from a Lumix G9II body. The camera is focused on street photography and has missing buttons and features.
 
-- Why Lumix MFT? Because the Panasonic-Leica lenses have an aperture ring and they work only on Lumix 
-- Why the G9II? Because it was the newest and most capable MFT
-- Why Leica M? Because it is the most beautiful camera ever made
-
-If you are an expert in any relevant field and see mistakes you are welcome to correct them or open issues for discussion, my only qualification to do this is that I was into electronics a long time ago.
+If you are an expert in any relevant field and see mistakes you are welcome to open issues for discussion, my only qualification to do this is that I was into electronics a long time ago.
 
 <img src="images/front.jpg" width="600"/>
 
 ---
 
-## 🛠️ What's Included
+## What's Included
 
-- `/3D-models/` – STEP files for CNC machining, including threads sheets
+- `/CADs/` – STEP files for CNC machining, including threads sheets
 - `/FPCBs/` – Schematics and gerber files for the flex cables
-- `/docs/` – Assembly guide and exploded diagrams
-- `/materials/` – List of extra items and purchase links
+- `/Datasheets/` – Some datasheets from used components
+- `/BOM/` – List of extra items and purchase links
 
 ---
 
-## 🧰 Materials
+## Materials (BOM)
 
 | Part                | Description                      | Notes |
 |---------------------|----------------------------------|-------|
-| Top plate           | Milled aluminum                  | Included in 3D-models |
+| Top plate           | Milled aluminum                  | Included in CADs |
 | Base plate          | Milled aluminum                  |  |
 | Front               | Milled aluminum                  |  |
 | Back                | Milled aluminum                  |  |
 | Heatsink            | Milled copper                    |  |
 | Flex cable          | Internal routing rework          | Included in FPCBs |
-| Screws              | M1.6 and M2                      | Refer to threads sheets in 3D-models |
+| Screws              | M1.6 and M2                      | Refer to threads sheets in CADs |
 | Body (G9II)         | Donor camera                     ||
 
 ---
 
-## 🧪 Build Instructions
+## Build Instructions
 
-> ⚠️ Advanced DIY skills required: electronics, soldering, camera disassembly, some original parts will need modifications
+> ⚠️ Advanced DIY skills required: electronics, soldering, disassembly without breaking, modifying original parts
+> ⚠️ WIP
 
 1. Disassemble Lumix G9II (see [https://www.youtube.com/@CameraSurgery])
-2. Machine or print parts from `/3D-models/` (did it with [https://jlcpcb.com])
-2. Print flex cables from `/FPCBs/`
-3. Install shutter
-4. Install sensor
-5. Install PCB
-6. Connect the flex cables
-7. Install buttons
-8. Install screen
-9. Install viewfinder
-10. Install wifi module
-11. Assemble
-12. Add leatherete
-
----
-
-## 📜 License
-
-This project is open-source under the MIT License. Feel free to modify and use — but no commercial use without permission.
+2. Machine or print parts from `/CADs/`
+3. Print flex cables from `/FPCBs/`
+4. Install mount, lens release button
+5. Install shutter
+6. Install sensor
+7. Install front lever and battery flex cable
+8. Install heatsink
+9. Install mainboard
+10. Install top plate dials and flex cables
+11. Install back buttons and flex cable
+12. Install screen
+13. Install viewfinder
+14. Install wifi module
+15. Assemble
+16. Add leatherete
+17. Install front lever
 
 ---
 
 ## Parts removed
 
-1. Lens release push detector (not sure what it was doing beside displaying some info on the screen). There is not enough space to add this detector
+1. Lens release push detector (not sure what it was doing beside displaying some info on the screen). There is not enough space to add this push detector
+2. The following buttons: ISO-WB, front custom buttons
 
 ---
 
 ## TO DO:
-1. The dials are too lose
-2. The buttons are too short
-3. Thread missing from the lever clicker
-4. Back wheel not grippy enough
-5. Dials gaskets too thin, must be wider
-6. 2nd shutter button bigger
-7. Front and back could be extended up and down for better strength
+- The dials are too lose
+- The buttons are too short
+- Thread missing from the lever clicker
+- Remove back wheel
+- Dials gaskets too thin (0.5mm), must be wider (1mm)
+- Front and back could be extended up and down for better strength
+
+---
+
+## Licence
+
+This project is licensed under the CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P-2.0).
 
 ---
 
