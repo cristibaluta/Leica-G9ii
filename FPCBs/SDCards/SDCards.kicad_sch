@@ -5,20 +5,21 @@
 	(uuid "f450cd19-0017-425d-8e4e-bf2c41c6b1d3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:SD_Card_Device"
+		(symbol "Leica-G9ii-Symbols:SD_Card_UHS2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -11.938 17.018 0)
+			(property "Reference" ""
+				(at -20.066 19.304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "SD_Card_Device"
-				(at 9.144 -17.272 0)
+			(property "Value" "SD_Card_UHS2"
+				(at 0.508 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,7 +27,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 8.89 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,8 +35,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
-				(at 0 0 0)
+			(property "Datasheet" ""
+				(at -0.508 -31.242 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,8 +44,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SD card device/card"
-				(at 0 0 0)
+			(property "Description" "SD card UHS-II"
+				(at 0 -10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SD*Device*"
+			(property "ki_fp_filters" "SD*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,10 +71,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SD_Card_Device_0_1"
+			(symbol "SD_Card_UHS2_0_1"
 				(rectangle
-					(start -2.032 6.858)
-					(end -1.27 4.826)
+					(start -6.604 6.604)
+					(end -5.842 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -83,8 +84,8 @@
 					)
 				)
 				(rectangle
-					(start -0.508 8.128)
-					(end 0.254 6.096)
+					(start -5.08 6.604)
+					(end -4.318 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -94,8 +95,8 @@
 					)
 				)
 				(rectangle
-					(start 1.016 8.128)
-					(end 1.778 6.096)
+					(start -3.556 6.604)
+					(end -2.794 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -105,8 +106,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 8.128)
-					(end 3.302 6.096)
+					(start -2.032 6.604)
+					(end -1.27 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -116,8 +117,8 @@
 					)
 				)
 				(rectangle
-					(start 4.064 8.128)
-					(end 4.826 6.096)
+					(start -0.508 6.604)
+					(end 0.254 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -127,8 +128,8 @@
 					)
 				)
 				(rectangle
-					(start 5.588 8.128)
-					(end 6.35 6.096)
+					(start 1.016 6.604)
+					(end 1.778 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -138,8 +139,8 @@
 					)
 				)
 				(rectangle
-					(start 7.112 8.128)
-					(end 7.874 6.096)
+					(start 2.54 6.604)
+					(end 3.302 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -149,8 +150,8 @@
 					)
 				)
 				(rectangle
-					(start 8.636 8.128)
-					(end 9.398 6.096)
+					(start 4.064 6.604)
+					(end 4.826 8.636)
 					(stroke
 						(width 0)
 						(type default)
@@ -160,8 +161,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 8.128)
-					(end 10.922 6.096)
+					(start 5.588 5.334)
+					(end 6.35 7.366)
 					(stroke
 						(width 0)
 						(type default)
@@ -171,10 +172,10 @@
 					)
 				)
 			)
-			(symbol "SD_Card_Device_1_1"
+			(symbol "SD_Card_UHS2_1_1"
 				(rectangle
-					(start -12.7 15.24)
-					(end 12.7 -15.24)
+					(start -20.32 17.78)
+					(end 21.59 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -185,7 +186,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 8.89) (xy 11.684 8.89) (xy 11.684 -9.144) (xy -2.794 -9.144) (xy -2.794 7.112) (xy -1.016 8.89)
+						(xy 5.334 9.398) (xy -7.366 9.398) (xy -7.366 -8.636) (xy 7.112 -8.636) (xy 7.112 7.62) (xy 5.334 9.398)
 					)
 					(stroke
 						(width 0.3)
@@ -195,8 +196,8 @@
 						(type none)
 					)
 				)
-				(text "9"
-					(at -1.778 3.556 0)
+				(text "8"
+					(at -6.35 5.334 0)
 					(effects
 						(font
 							(size 0.9 0.9)
@@ -204,15 +205,15 @@
 					)
 				)
 				(text "1"
-					(at 0 4.826 0)
+					(at 4.318 5.334 0)
 					(effects
 						(font
 							(size 0.9 0.9)
 						)
 					)
 				)
-				(text "8"
-					(at 10.668 4.826 0)
+				(text "9"
+					(at 6.096 4.064 0)
 					(effects
 						(font
 							(size 0.9 0.9)
@@ -220,43 +221,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 10.16 0)
-					(length 2.54)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
+					(at -22.86 15.24 0)
 					(length 2.54)
 					(name "DAT2"
 						(effects
@@ -274,16 +239,52 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 2.54 0)
+					(at -22.86 12.7 0)
 					(length 2.54)
-					(name "CD/DAT3"
+					(name "DAT1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 3.81 0)
+					(length 2.54)
+					(name "VSS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -292,7 +293,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 -2.54 0)
+					(at -22.86 1.27 0)
 					(length 2.54)
 					(name "CLK"
 						(effects
@@ -309,26 +310,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 0 17.78 270)
+					(at -22.86 -3.81 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -346,9 +329,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -17.78 90)
+					(at -22.86 -6.35 0)
 					(length 2.54)
-					(name "VSS"
+					(name "VSS1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,18 +346,179 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -17.78 90)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
 					(length 2.54)
-					(hide yes)
-					(name "VSS"
+					(name "CMD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -12.7 0)
+					(length 2.54)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 12.7 180)
+					(length 2.54)
+					(name "VSS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 8.89 180)
+					(length 2.54)
+					(name "D0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 6.35 180)
+					(length 2.54)
+					(name "D0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 1.27 180)
+					(length 2.54)
+					(name "VSS4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 -1.27 180)
+					(length 2.54)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -6.35 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -8.89 180)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 -13.97 180)
+					(length 2.54)
+					(name "Name"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,247 +532,987 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 109.22 87.63)
+			(xy 30.48 27.94) (xy 168.91 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18221e1b-4c80-4ff2-bb5e-add85fd45d4a")
+		(uuid "03c4fcae-a16f-4b98-975e-38d5c977a540")
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 72.39)
+			(xy 166.37 54.61) (xy 162.56 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24a2e5e0-548f-4d06-a433-88cc12d723f7")
+		(uuid "08bcfbcb-8d22-48cc-8647-ffca1198e162")
 	)
 	(wire
 		(pts
-			(xy 124.46 124.46) (xy 124.46 128.27)
+			(xy 27.94 144.78) (xy 36.83 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28135afd-7c7b-44b9-8d10-cf3297cc9af8")
+		(uuid "08c5970a-7612-48d3-84a7-9da599ec6f4d")
 	)
 	(wire
 		(pts
-			(xy 124.46 168.91) (xy 124.46 163.83)
+			(xy 172.72 144.78) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bd72f93-d514-4f54-9137-30986b363887")
+		(uuid "0931932f-6670-43cb-9282-a6dce1fc9c36")
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 109.22 138.43)
+			(xy 163.83 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bfe4550-c533-4264-9fdc-2a226d595ca6")
+		(uuid "0ab2dc9c-5298-43cd-b2bb-7ebca452e8dd")
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 109.22 95.25)
+			(xy 171.45 69.85) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36ae286e-4a6d-4de8-9a9c-a3378b95a6a2")
+		(uuid "0ec2e7d4-3cf4-40a3-8fb6-ebd31cde1e1a")
 	)
 	(wire
 		(pts
-			(xy 99.06 92.71) (xy 109.22 92.71)
+			(xy 27.94 99.06) (xy 27.94 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44aa777f-16c6-4d70-a626-19cd4c5f49d6")
+		(uuid "10648722-b1cb-4cc9-8b61-d285b1b1be05")
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 83.82 68.58)
+			(xy 36.83 149.86) (xy 26.67 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a8e00f3-3338-49ea-9d4f-7f96e7a0e2b4")
+		(uuid "12d1f74f-e704-4c22-951b-ae4930ec9db2")
 	)
 	(wire
 		(pts
-			(xy 99.06 151.13) (xy 109.22 151.13)
+			(xy 173.99 149.86) (xy 163.83 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "616a0884-d1f5-4953-80e6-9996f5008c2e")
+		(uuid "154a8919-896c-4991-96a1-e7bfb0647ea5")
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 124.46 107.95)
+			(xy 83.82 132.08) (xy 116.84 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d8bbcbf-4546-484c-a199-ea1fff807816")
+		(uuid "15b2cef8-a35a-406a-9f80-2efbab3a547a")
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 109.22 80.01)
+			(xy 30.48 101.6) (xy 30.48 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e57e8d1-6ed3-407a-b5ef-659abc3447d7")
+		(uuid "18718ba3-08c5-433e-9b7c-7486c9be22cc")
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 124.46 68.58)
+			(xy 34.29 31.75) (xy 34.29 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70a271ff-7d4f-4266-95ce-f64387b13a72")
+		(uuid "194d72aa-88d7-4f9f-adeb-9ec9d25bbcfc")
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 109.22 135.89)
+			(xy 26.67 149.86) (xy 26.67 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7136b8b3-d34c-4160-8cb9-b8f3ecdd5c5f")
+		(uuid "1a6aa284-69c4-49c3-87c7-117d640e0ad1")
 	)
 	(wire
 		(pts
-			(xy 83.82 124.46) (xy 124.46 124.46)
+			(xy 34.29 52.07) (xy 36.83 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76d3e8d2-8042-4828-b605-4a7911e130a7")
+		(uuid "1c91c92c-b17c-4978-9a65-ca2c8210ef30")
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 83.82 113.03)
+			(xy 167.64 29.21) (xy 31.75 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ea4d3e-bcc6-467f-9bc8-5e26d813bc0f")
+		(uuid "1d8193e8-104c-4fb9-a443-cd561ccb3143")
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 109.22 148.59)
+			(xy 29.21 26.67) (xy 29.21 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9af54061-6b50-4653-bde3-c70abe5ebb15")
+		(uuid "240b9118-ce33-4dbc-8f9d-84bbb2bb77fa")
 	)
 	(wire
 		(pts
-			(xy 83.82 113.03) (xy 124.46 113.03)
+			(xy 26.67 74.93) (xy 36.83 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9db592a3-4311-4e1b-b218-33afc266c290")
+		(uuid "25f53371-159a-472b-84db-35ec0897697b")
 	)
 	(wire
 		(pts
-			(xy 83.82 128.27) (xy 83.82 124.46)
+			(xy 168.91 27.94) (xy 168.91 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b48a3972-b066-43c1-984f-6388ced27ccd")
+		(uuid "28ca40c5-e642-4b31-8d7f-366a0684b264")
 	)
 	(wire
 		(pts
-			(xy 83.82 163.83) (xy 83.82 168.91)
+			(xy 36.83 142.24) (xy 29.21 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be40f696-08be-4095-bb86-66888af264f2")
+		(uuid "2f694ea8-9244-426e-8f8e-7018251ce938")
 	)
 	(wire
 		(pts
-			(xy 99.06 140.97) (xy 109.22 140.97)
+			(xy 31.75 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bed43d51-7c22-41ef-9e2b-02a65b02c831")
+		(uuid "3036285e-642c-4146-84c7-70fab7f79c3a")
 	)
 	(wire
 		(pts
-			(xy 99.06 143.51) (xy 109.22 143.51)
+			(xy 171.45 100.33) (xy 171.45 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ceb94991-9faa-4a14-82b4-459caaedbf0c")
+		(uuid "3196c93e-90e1-4964-9f3b-20574ed21ab3")
 	)
 	(wire
 		(pts
-			(xy 83.82 168.91) (xy 124.46 168.91)
+			(xy 33.02 104.14) (xy 33.02 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d641f19d-e990-4361-bee0-279af6fdedc9")
+		(uuid "324b6970-6e49-4daa-903e-7f7bb292122d")
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 109.22 85.09)
+			(xy 83.82 125.73) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e57a06f9-4840-44c4-be8a-811930ab5926")
+		(uuid "3372f849-d638-4781-89ad-17eab6915794")
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 109.22 82.55)
+			(xy 163.83 48.26) (xy 162.56 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6e36ad9-49b8-4f42-85d2-f64368bf8231")
+		(uuid "33db6ea6-abc0-458c-933f-7eef7aa8b48d")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394b7b9c-129a-426f-b262-aa2f6b2f464c")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 35.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a42a9e5-1879-4dcc-ae95-4dfe694e5b41")
+	)
+	(wire
+		(pts
+			(xy 171.45 25.4) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9e2872-4026-4d63-8055-7da122b5522b")
+	)
+	(wire
+		(pts
+			(xy 83.82 142.24) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3f3888-564e-45ee-bda4-2ccea642a2bd")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 166.37 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4427eb16-0d51-4f1e-862c-c3164cb92044")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4431edb7-0f33-4703-b28b-caccb816d191")
+	)
+	(wire
+		(pts
+			(xy 35.56 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fe9361-9789-496b-adf3-4a040ee7c906")
+	)
+	(wire
+		(pts
+			(xy 163.83 137.16) (xy 170.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d5ff38-a5c3-4738-b180-5295e70c173e")
+	)
+	(wire
+		(pts
+			(xy 170.18 26.67) (xy 29.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e9c0a0-dd56-4d91-9c1f-d111ce015ded")
+	)
+	(wire
+		(pts
+			(xy 35.56 33.02) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518cfc74-25e3-40a1-a4fa-5071159672f1")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544f6a64-09ae-4cd1-bbd1-86975731d646")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5793dfc6-2c01-4141-9e5d-7720730e4b77")
+	)
+	(wire
+		(pts
+			(xy 162.56 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596c63b6-1690-4b29-be7e-836f1810ae77")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c86bbba-9b78-4aef-ac49-54b93d7d201b")
+	)
+	(wire
+		(pts
+			(xy 33.02 129.54) (xy 36.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6359e305-9c3a-4a40-88aa-38fbda3c1e9c")
+	)
+	(wire
+		(pts
+			(xy 27.94 25.4) (xy 171.45 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648518ca-0a73-4c98-bd10-d0e02f79820a")
+	)
+	(wire
+		(pts
+			(xy 162.56 52.07) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c7df2c-fd62-4805-a157-42e10d18acd6")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673bd063-a631-426a-b2e7-571791f50074")
+	)
+	(wire
+		(pts
+			(xy 31.75 59.69) (xy 36.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5d7e3e-310f-4367-acd2-bceefc059a21")
+	)
+	(wire
+		(pts
+			(xy 36.83 134.62) (xy 31.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a27fda7-8b6e-48ec-98d6-217aa35f2a7d")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 31.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a41569b-ffde-4328-9564-f9a7f3d4ac56")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd6b4aa-8180-405d-8f11-36b7a43f6b0f")
+	)
+	(wire
+		(pts
+			(xy 83.82 146.05) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8613b368-061e-4c8a-99f5-bd25353eedac")
+	)
+	(wire
+		(pts
+			(xy 83.82 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c138d4-b12e-4d6c-b6f1-1ff508c1a30c")
+	)
+	(wire
+		(pts
+			(xy 83.82 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8791960e-1642-4de2-89ca-f3a87d798e82")
+	)
+	(wire
+		(pts
+			(xy 165.1 52.07) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c7c93e-f2ec-4f5c-8ceb-24a44d1a536e")
+	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 173.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1e8d6c-73c1-431d-a8a9-cddb2e2ffa40")
+	)
+	(wire
+		(pts
+			(xy 29.21 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9007a1b3-4629-41c6-a4b9-d249baa3a17a")
+	)
+	(wire
+		(pts
+			(xy 171.45 142.24) (xy 163.83 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916fdc96-e41e-416b-8482-a385c6cee340")
+	)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942fd973-f23d-4f32-a90c-0abc9ee2b604")
+	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e975da-9d0a-48ed-b3e1-b15e6c29e425")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965d7e30-a20a-499c-857e-6ffbd21e1340")
+	)
+	(wire
+		(pts
+			(xy 36.83 69.85) (xy 27.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985d1dac-98f6-40cc-933f-c57d00f3696e")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 33.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3621dc-7259-4210-8d27-08e5f2953fbe")
+	)
+	(wire
+		(pts
+			(xy 27.94 69.85) (xy 27.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac6f6d3-cea3-4c7a-80bf-3c418c8daa78")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc21ff3-0566-4832-9881-480ea3903864")
+	)
+	(wire
+		(pts
+			(xy 162.56 74.93) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4b50b2-910f-4b71-8dd3-75ffe15d150d")
+	)
+	(wire
+		(pts
+			(xy 167.64 129.54) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c526d37-7439-41ad-a0e8-bde9d9a81498")
+	)
+	(wire
+		(pts
+			(xy 168.91 134.62) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d967202-4fb8-4841-a044-ae9d05f3d8be")
+	)
+	(wire
+		(pts
+			(xy 34.29 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec5ca1d-5c4f-43a4-bbe0-d543faaa2c2c")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8f31a6-2e37-4d99-abbb-d979c3dfd9ba")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 33.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bca2a5-fec6-4f63-8616-f3e4bebfda0f")
+	)
+	(wire
+		(pts
+			(xy 29.21 67.31) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cf93d7-aa7a-4d9e-ac49-22ae654410c2")
+	)
+	(wire
+		(pts
+			(xy 36.83 62.23) (xy 30.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6570b2d-51d3-4297-a225-77a6af676d08")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c1a1ea-7bcb-4663-8ebd-dacc7cd33cf9")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab11185-0c9a-4cc5-8ad4-a42a75dd3da9")
+	)
+	(wire
+		(pts
+			(xy 35.56 123.19) (xy 35.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab40ad1f-3465-4159-bb59-c3ce94f31e74")
+	)
+	(wire
+		(pts
+			(xy 83.82 148.59) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5544a9-ede0-4c3a-afdf-da7714a1efa5")
+	)
+	(wire
+		(pts
+			(xy 166.37 127) (xy 163.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c817d3-3c41-4cd0-8b15-c17927ccaaf4")
+	)
+	(wire
+		(pts
+			(xy 163.83 33.02) (xy 163.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6be9545-4cb1-4b95-8489-6abcf39d4b61")
+	)
+	(wire
+		(pts
+			(xy 31.75 29.21) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b720461a-8a58-4568-9f43-2b68ea440840")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 172.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aec53d-2507-49cc-bd0f-4c54b642cd6a")
+	)
+	(wire
+		(pts
+			(xy 34.29 127) (xy 34.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be373af7-4062-480a-8ce2-84964832d0f8")
+	)
+	(wire
+		(pts
+			(xy 165.1 31.75) (xy 34.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be40d03c-75af-4ef8-a05f-b4422066c0b5")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 170.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6ecba7-189b-4179-b300-d743d87d9c79")
+	)
+	(wire
+		(pts
+			(xy 168.91 102.87) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c0fc9b-b98f-4b99-871b-d0321f22edbe")
+	)
+	(wire
+		(pts
+			(xy 83.82 123.19) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c957a4ed-cf34-491a-95c5-9e96b1bdd2ef")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 27.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd17e1bf-6f0b-4d42-b005-d7670b65ce93")
+	)
+	(wire
+		(pts
+			(xy 83.82 134.62) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec2451d-69f9-4d39-9cca-7dec4f8ec2e2")
+	)
+	(wire
+		(pts
+			(xy 26.67 24.13) (xy 26.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97e5684-d2a0-4e3c-9354-3e5e615b7910")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4281e7-6999-4ab8-8aa2-8b5abe079e07")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc49e9c0-fb90-4f92-85e8-c35d5dc1ca43")
+	)
+	(wire
+		(pts
+			(xy 29.21 142.24) (xy 29.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea694b0-661c-46bc-b3fd-95de4f262142")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 115.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4367c5f-cb37-41c2-952d-6cbda5046db9")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5be761a-7649-497d-9109-76be623ed655")
+	)
+	(wire
+		(pts
+			(xy 172.72 24.13) (xy 26.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ca47cf-02a3-45e7-b83b-73715b7eefe8")
+	)
+	(wire
+		(pts
+			(xy 26.67 97.79) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3a2b23-3240-487a-8e99-f75fe6c127b2")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 30.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb24aefe-70f1-4a5e-ab92-c62a4d350aeb")
+	)
+	(wire
+		(pts
+			(xy 30.48 62.23) (xy 30.48 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ce55cb-af0d-4c03-91bc-85a50ae6f403")
+	)
+	(wire
+		(pts
+			(xy 168.91 62.23) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f631e651-bf72-4d05-ac9f-11c634a71efe")
+	)
+	(wire
+		(pts
+			(xy 166.37 30.48) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6aee29b-62d3-4a72-8cab-925e76c5d077")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 167.64 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fd2b9f-f85e-43d7-9e9b-82241997257c")
+	)
+	(wire
+		(pts
+			(xy 33.02 54.61) (xy 33.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ee7e42-b61e-4289-a805-b1948e701ac2")
+	)
+	(wire
+		(pts
+			(xy 170.18 137.16) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa8568f-5679-40ea-acac-b9967f9ebea8")
 	)
 	(symbol
-		(lib_id "Connector:SD_Card_Device")
-		(at 83.82 90.17 0)
+		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(at 60.96 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -638,25 +1522,23 @@
 		(fields_autoplaced yes)
 		(uuid "0caf25f0-3ef3-4e51-8463-ee979364986f")
 		(property "Reference" "J1"
-			(at 69.85 88.8999 0)
+			(at 60.325 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SD_Card_Device"
-			(at 69.85 91.4399 0)
+			(at 60.325 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
-			(at 83.82 90.17 0)
+			(at 52.07 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
-			(at 83.82 90.17 0)
+			(at 61.468 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,8 +1555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SD card device/card"
-			(at 83.82 90.17 0)
+		(property "Description" "SD card UHS-II"
+			(at 60.96 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,6 +1591,30 @@
 		(pin "6"
 			(uuid "eebf6ce3-9190-4af4-bd93-977c37c857ff")
 		)
+		(pin "15"
+			(uuid "5153c2ad-a078-4550-8e30-8fd0a87bf729")
+		)
+		(pin "14"
+			(uuid "0be3fd2d-bb5b-4bad-8313-485cd53ddca8")
+		)
+		(pin "17"
+			(uuid "f1dd60dc-5eab-4727-957f-6af964871f50")
+		)
+		(pin "16"
+			(uuid "b79a0e05-8f8a-479a-8a58-ae0073d9ef3e")
+		)
+		(pin "11"
+			(uuid "2cba61ed-5383-4ad2-a384-bec13c2b050c")
+		)
+		(pin "10"
+			(uuid "9ba621f7-7e28-4710-95fc-6a36f6c0cb8f")
+		)
+		(pin "12"
+			(uuid "6c61519c-e102-4c4c-ab6e-fed3669ca1af")
+		)
+		(pin "13"
+			(uuid "eaa02daf-8b76-4ea2-84c7-63c3f45ecd00")
+		)
 		(instances
 			(project ""
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -719,8 +1625,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SD_Card_Device")
-		(at 124.46 146.05 0)
+		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(at 139.7 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -729,25 +1635,23 @@
 		(fields_autoplaced yes)
 		(uuid "63689386-ee3a-4acf-a125-fd02c7838b6c")
 		(property "Reference" "J4"
-			(at 138.43 144.7799 0)
+			(at 140.335 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SD_Card_Device"
-			(at 138.43 147.3199 0)
+			(at 140.335 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
-			(at 124.46 146.05 0)
+			(at 148.59 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +1660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 146.05 0)
+			(at 139.192 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,8 +1668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SD card device/card"
-			(at 124.46 146.05 0)
+		(property "Description" "SD card UHS-II"
+			(at 139.7 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,6 +1704,30 @@
 		(pin "6"
 			(uuid "86c667de-b0c8-4edc-b582-26c93abb665e")
 		)
+		(pin "17"
+			(uuid "7297fe35-1259-48d0-9ef8-f9c3dc8815fb")
+		)
+		(pin "16"
+			(uuid "e3076cd8-a239-4316-b810-cc1e04b9ddb6")
+		)
+		(pin "14"
+			(uuid "5a39809c-1655-480f-9be3-5d9848cec250")
+		)
+		(pin "10"
+			(uuid "920c0aea-166e-4035-b350-1537fc28fb84")
+		)
+		(pin "11"
+			(uuid "d59c0d68-43de-4df3-a891-811438739b80")
+		)
+		(pin "15"
+			(uuid "6881c4a4-22e8-41fa-b632-44698ced1b8d")
+		)
+		(pin "13"
+			(uuid "41990295-a58d-4689-8f16-92eb70dc93a8")
+		)
+		(pin "12"
+			(uuid "82b31c43-5dd2-4f7b-ae3e-c98979c8e167")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -810,8 +1738,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SD_Card_Device")
-		(at 83.82 146.05 0)
+		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(at 60.96 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -821,25 +1749,23 @@
 		(fields_autoplaced yes)
 		(uuid "707e9e08-4766-4530-9366-ad28a7791310")
 		(property "Reference" "J3"
-			(at 69.85 144.7799 0)
+			(at 60.325 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SD_Card_Device"
-			(at 69.85 147.3199 0)
+			(at 60.325 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
-			(at 83.82 146.05 0)
+			(at 52.07 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
-			(at 83.82 146.05 0)
+			(at 61.468 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,8 +1782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SD card device/card"
-			(at 83.82 146.05 0)
+		(property "Description" "SD card UHS-II"
+			(at 60.96 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,6 +1818,30 @@
 		(pin "6"
 			(uuid "5125aef5-4853-4322-b80c-1589d6aa1b25")
 		)
+		(pin "17"
+			(uuid "d5df91b9-af7f-4ded-ab8b-66ef106b3854")
+		)
+		(pin "10"
+			(uuid "40508b3f-baf7-4e9e-92dc-a1590304efa1")
+		)
+		(pin "16"
+			(uuid "1f206019-72de-4ada-b071-a92fc84c61bc")
+		)
+		(pin "11"
+			(uuid "51b68fff-ff46-426b-b4c4-4f8a1479b7ba")
+		)
+		(pin "15"
+			(uuid "51afa138-c981-4f11-b5aa-95cee81dab58")
+		)
+		(pin "13"
+			(uuid "0da96c58-2d44-4c35-aaee-2f5e2fc1fa3b")
+		)
+		(pin "14"
+			(uuid "095ec2e1-7f34-4353-9e6b-18b4cf1c5c55")
+		)
+		(pin "12"
+			(uuid "580e278e-26e7-460f-9333-b9aab96cbab6")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -902,8 +1852,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SD_Card_Device")
-		(at 124.46 90.17 0)
+		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(at 138.43 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -912,25 +1862,23 @@
 		(fields_autoplaced yes)
 		(uuid "cb46e58e-84f1-46f2-bbe3-60b0a99a996c")
 		(property "Reference" "J2"
-			(at 138.43 88.8999 0)
+			(at 139.065 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SD_Card_Device"
-			(at 138.43 91.4399 0)
+			(at 139.065 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Leica-G9ii:SD_Card_Chip_UHS-II"
-			(at 124.46 90.17 0)
+			(at 147.32 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 90.17 0)
+			(at 137.922 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,8 +1895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SD card device/card"
-			(at 124.46 90.17 0)
+		(property "Description" "SD card UHS-II"
+			(at 138.43 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,6 +1930,30 @@
 		)
 		(pin "6"
 			(uuid "694b6a50-0a64-43ce-a071-661724a3ec70")
+		)
+		(pin "17"
+			(uuid "2bcdb21c-6f88-42db-847a-b4e059f8d60d")
+		)
+		(pin "11"
+			(uuid "6dc54715-534d-4771-9778-e99f5d10c62b")
+		)
+		(pin "10"
+			(uuid "9a1444e9-f16a-4a55-9177-d7f9565889eb")
+		)
+		(pin "15"
+			(uuid "2f9eb010-788c-4510-abd3-ddb25f5c6cc7")
+		)
+		(pin "14"
+			(uuid "8dd75e8f-be58-4a12-b39d-b0a86fbd8251")
+		)
+		(pin "12"
+			(uuid "895418a2-8e4c-425f-838c-f2093ff6383e")
+		)
+		(pin "13"
+			(uuid "e81a4b41-44e2-44e2-84be-20b9b651bb94")
+		)
+		(pin "16"
+			(uuid "591e2154-c2f0-456a-a192-97275fc44632")
 		)
 		(instances
 			(project ""
