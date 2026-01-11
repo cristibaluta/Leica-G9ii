@@ -5148,8 +5148,8 @@
 		(uuid "b8c99f88-8123-4cda-be63-5b3ad89d3fb5")
 	)
 	(gr_circle
-		(center 112.97 117.8)
-		(end 115.47 117.8)
+		(center 112.97 116.8)
+		(end 115.47 116.8)
 		(stroke
 			(width 0.05)
 			(type solid)
