@@ -190,7 +190,7 @@
 		(descr "Hirose 0.30mm Pitch FFC/FPC, FH26-61S-0.3SHW, 61 Circuits (https://www.hirose.com/en/product/document?clcode=&productname=&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en), generated with kicad-footprint-generator")
 		(tags "connector Hirose  horizontal")
 		(property "Reference" "J3"
-			(at -0.035 12.15 180)
+			(at -0.03 12.19 180)
 			(layer "F.SilkS")
 			(uuid "a7fee857-cd19-488e-99cd-8d89c95500a1")
 			(effects
@@ -2549,6 +2549,39 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d69aee66-e2e5-4941-bc14-312202920757")
+	)
+	(gr_rect
+		(start 219.51 19.05)
+		(end 235.575 21.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "45395aa3-4a55-4587-b336-7727e6789877")
+	)
+	(gr_rect
+		(start 235.575 27.08)
+		(end 251.115 47.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "4ac48453-1620-4bae-979c-775cca4175a8")
+	)
+	(gr_rect
+		(start 201.335 31.25)
+		(end 235.505 43.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "8ed2e4b2-7e9d-46f9-83cd-c41b104fcec2")
 	)
 	(gr_arc
 		(start 206.27 67.583779)
