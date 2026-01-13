@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator")
 	(tags "connector Molex  top entry")
-	(property "Reference" "REF**"
-		(at 0.01 -7.72 0)
+	(property "Reference" "ON/OFF"
+		(at 5.93 -0.1 180)
 		(layer "F.SilkS")
-		(uuid "a90163cc-e609-42c0-a82b-487396273550")
+		(uuid "49347929-146b-4c1e-873e-0f06b89e9f42")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Connector-Screw-2Pins"
-		(at -0.01 8.77 0)
+	(property "Value" "Conn_01x02_Pin"
+		(at -0.01 8.77 180)
 		(layer "F.Fab")
-		(uuid "19ed9c3f-1e98-4fc4-8c92-6ef85c5f5e32")
+		(uuid "ae6585ab-a992-432d-9273-6dda75fa9d2a")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16a7a803-fda7-478c-b11e-07fa194dc1dc")
+		(uuid "787f2f5c-be63-4738-86ca-e74ca76bf687")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Generic connector, single row, 01x02, script generated"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9e3ecf5d-7161-4bb2-888f-d2b1ba33a506")
+		(uuid "6feeb080-fa2e-4d30-ae94-269b67fda689")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,30 +56,30 @@
 	(attr smd)
 	(fp_circle
 		(center 0 0)
-		(end 1.6 0)
+		(end 0.8 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "501061f6-9aae-4724-912b-d54b95eaba6f")
+		(uuid "1ac1254a-786a-4b0a-9128-083ffb6edda5")
 	)
 	(fp_rect
-		(start -3.25 -5.08)
-		(end 3.25 5.13)
+		(start -2.18 -2.51)
+		(end 2.2 2.51)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c2fa30e2-c7cb-495b-b49f-57f3cdbbd8a8")
+		(uuid "84cf66cc-c72f-495a-8cf0-8ae87ad8f67e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.01 6.99 0)
+		(at -0.01 6.99 180)
 		(layer "F.Fab")
-		(uuid "7b93d15b-b696-4f08-84c7-5c57578ceca5")
+		(uuid "9f59c465-f154-49f5-a879-2dde4cb36afa")
 		(effects
 			(font
 				(size 1 1)
@@ -88,9 +88,9 @@
 		)
 	)
 	(pad "1" smd custom
-		(at 0 -3)
-		(size 2 2)
-		(layers "F.Cu")
+		(at 0 -1.7)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -98,19 +98,19 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 1.433771 1.56623) (xy 1 1.236084) (xy 0.63 1.05) (xy 0.16 0.96) (xy -0.16 0.96) (xy -0.65 1.06)
-					(xy -1.206026 1.37) (xy -1.669999 1.85) (xy -3 1.85) (xy -3 -1.01) (xy 3 -1) (xy 3 1.57)
+					(xy 0.96 1.4) (xy 0.83 1.1) (xy 0.57 0.84) (xy 0.157512 0.684747) (xy -0.162488 0.684747) (xy -0.59 0.86)
+					(xy -0.87 1.15) (xy -0.976896 1.441766) (xy -2 1.45) (xy -2.01 -0.63) (xy 2.03 -0.62) (xy 2 1.39)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "5a7a887f-3261-428c-9419-52f421e35d35")
+		(uuid "a6faf926-0dc6-420a-884a-26472bd993bc")
 	)
 	(pad "2" smd custom
-		(at 0 3 180)
-		(size 2 2)
-		(layers "F.Cu")
+		(at 0 1.7 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -118,14 +118,14 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 1.433771 1.56623) (xy 1 1.236084) (xy 0.63 1.05) (xy 0.16 0.96) (xy -0.16 0.96) (xy -0.65 1.06)
-					(xy -1.206026 1.37) (xy -1.669999 1.85) (xy -3 1.85) (xy -3 -1.01) (xy 3 -1) (xy 3 1.57)
+					(xy 0.96 1.4) (xy 0.83 1.1) (xy 0.57 0.84) (xy 0.157512 0.684747) (xy -0.162488 0.684747) (xy -0.59 0.86)
+					(xy -0.87 1.15) (xy -0.976896 1.441766) (xy -2 1.45) (xy -2.01 -0.63) (xy 2.03 -0.62) (xy 2 1.39)
 				)
 				(width 0.2)
 				(fill yes)
 			)
 		)
-		(uuid "385b3084-ce95-47f7-9232-b0dab4915f99")
+		(uuid "516083c2-abe7-46ab-b2f5-04d08d948a6e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal.wrl"
