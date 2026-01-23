@@ -7010,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 52.07 111.76 0)
+		(at 52.07 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7018,7 +7018,7 @@
 		(dnp no)
 		(uuid "7083e787-aea5-4fe6-9519-c49c3b67a715")
 		(property "Reference" "BT1"
-			(at 44.704 110.744 0)
+			(at 59.436 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7027,7 @@
 			)
 		)
 		(property "Value" "2.6V"
-			(at 43.688 113.03 0)
+			(at 60.452 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 			)
 		)
 		(property "Footprint" "Leica-G9ii:Battery_Cell"
-			(at 52.07 110.236 90)
+			(at 52.07 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 110.236 90)
+			(at 52.07 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 52.07 111.76 0)
+			(at 52.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
