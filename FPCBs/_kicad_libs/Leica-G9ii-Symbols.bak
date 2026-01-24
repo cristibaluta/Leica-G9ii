@@ -292,7 +292,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SD_Card_UHS2"
+	(symbol "SD_Card_Socket_UHS2"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -305,7 +305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SD_Card_UHS2"
+		(property "Value" "SD_Card_Socket_UHS2"
 			(at -0.254 12.7 0)
 			(effects
 				(font
@@ -358,7 +358,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SD_Card_UHS2_0_1"
+		(symbol "SD_Card_Socket_UHS2_0_1"
 			(rectangle
 				(start -6.604 6.604)
 				(end -5.842 8.636)
@@ -459,7 +459,7 @@
 				)
 			)
 		)
-		(symbol "SD_Card_UHS2_1_1"
+		(symbol "SD_Card_Socket_UHS2_1_1"
 			(rectangle
 				(start -20.32 17.78)
 				(end 21.59 -17.78)
@@ -670,16 +670,16 @@
 				)
 			)
 			(pin output line
-				(at -8.89 -20.32 90)
+				(at -5.08 -20.32 90)
 				(length 2.54)
-				(name "CARD_DETECT"
+				(name "COMMON"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -697,7 +697,25 @@
 						)
 					)
 				)
-				(number "19"
+				(number "WP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -20.32 90)
+				(length 2.54)
+				(name "CARD_DETECT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "CD"
 					(effects
 						(font
 							(size 1.27 1.27)

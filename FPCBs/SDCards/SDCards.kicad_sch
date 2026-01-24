@@ -5,7 +5,7 @@
 	(uuid "f450cd19-0017-425d-8e4e-bf2c41c6b1d3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Leica-G9ii-Symbols:SD_Card_UHS2"
+		(symbol "Leica-G9ii-Symbols:SD_Card_Socket_UHS2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,8 +18,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "SD_Card_UHS2"
-				(at 0.508 -20.32 0)
+			(property "Value" "SD_Card_Socket_UHS2"
+				(at -0.254 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SD_Card_UHS2_0_1"
+			(symbol "SD_Card_Socket_UHS2_0_1"
 				(rectangle
 					(start -6.604 6.604)
 					(end -5.842 8.636)
@@ -172,7 +172,7 @@
 					)
 				)
 			)
-			(symbol "SD_Card_UHS2_1_1"
+			(symbol "SD_Card_Socket_UHS2_1_1"
 				(rectangle
 					(start -20.32 17.78)
 					(end 21.59 -17.78)
@@ -382,6 +382,60 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -5.08 -20.32 90)
+					(length 2.54)
+					(name "COMMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -20.32 90)
+					(length 2.54)
+					(name "WRITE_PROTECT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -20.32 90)
+					(length 2.54)
+					(name "CARD_DETECT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 24.13 12.7 180)
 					(length 2.54)
@@ -529,6 +583,64 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "SD1 - external"
+		(exclude_from_sim no)
+		(at 195.58 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17d18d10-c996-476f-ba64-5bc8046d7202")
+	)
+	(text "SD2 - internal soldered"
+		(exclude_from_sim no)
+		(at 197.612 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2cd5f35-03c6-4fde-bb15-ba709d90eedb")
+	)
+	(junction
+		(at 105.41 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f3fc2d-b63f-4295-b555-83ebbe8958d0")
+	)
+	(junction
+		(at 105.41 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "645e79ca-6d3b-46b8-80cf-a4fc9d63559d")
+	)
+	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6eb3b5-56f9-4a8c-b9c1-2732ed2f33cb")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016553ea-d408-4974-8287-bc3122accf77")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 50.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d7219b-7258-4555-af9f-ef9f381a632b")
 	)
 	(wire
 		(pts
@@ -682,6 +794,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 161.29) (xy 50.8 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c45762-3cd1-40c7-8eec-1c8020530d94")
+	)
+	(wire
+		(pts
 			(xy 29.21 26.67) (xy 29.21 67.31)
 		)
 		(stroke
@@ -749,6 +871,16 @@
 			(type default)
 		)
 		(uuid "324b6970-6e49-4daa-903e-7f7bb292122d")
+	)
+	(wire
+		(pts
+			(xy 48.26 156.21) (xy 48.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c3be24-0a4b-4b57-8e67-98bb98615e68")
 	)
 	(wire
 		(pts
@@ -852,6 +984,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 161.29) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab73502-fa22-45cb-a77d-c8bda7ea4e63")
+	)
+	(wire
+		(pts
 			(xy 170.18 26.67) (xy 29.21 26.67)
 		)
 		(stroke
@@ -862,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 163.83 33.02)
+			(xy 35.56 33.02) (xy 105.41 33.02)
 		)
 		(stroke
 			(width 0)
@@ -872,13 +1014,33 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 67.31) (xy 115.57 67.31)
+			(xy 83.82 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "544f6a64-09ae-4cd1-bbd1-86975731d646")
+	)
+	(wire
+		(pts
+			(xy 134.62 160.02) (xy 134.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d67be1-2087-4224-b9ed-1c16bb8e5e58")
+	)
+	(wire
+		(pts
+			(xy 66.04 87.63) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57526928-e533-4b40-b9e5-20d7a133735b")
 	)
 	(wire
 		(pts
@@ -909,6 +1071,16 @@
 			(type default)
 		)
 		(uuid "5c86bbba-9b78-4aef-ac49-54b93d7d201b")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e797f34-d618-48f8-a379-33f1371e6bbc")
 	)
 	(wire
 		(pts
@@ -952,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 162.56) (xy 152.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b27ff0c-150b-447c-8d9b-7718d6b008a4")
+	)
+	(wire
+		(pts
 			(xy 31.75 59.69) (xy 36.83 59.69)
 		)
 		(stroke
@@ -979,6 +1161,16 @@
 			(type default)
 		)
 		(uuid "7a41569b-ffde-4328-9564-f9a7f3d4ac56")
+	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 66.04 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7f8a74-fbda-4d1b-81e2-197baf1a48ad")
 	)
 	(wire
 		(pts
@@ -1029,6 +1221,16 @@
 			(type default)
 		)
 		(uuid "87c7c93e-f2ec-4f5c-8ceb-24a44d1a536e")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.28) (xy 48.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3e6233-7819-4532-8467-ff26c06b29bf")
 	)
 	(wire
 		(pts
@@ -1292,6 +1494,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 160.02) (xy 134.62 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fd96f0-5d89-4ae9-8dae-5205b58ee56c")
+	)
+	(wire
+		(pts
+			(xy 152.4 162.56) (xy 152.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd88a3e-515f-4126-8b77-2cec3c1a6a1e")
+	)
+	(wire
+		(pts
 			(xy 34.29 127) (xy 34.29 105.41)
 		)
 		(stroke
@@ -1322,6 +1544,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e9e605-b430-42f2-8b23-60e8d61bff59")
+	)
+	(wire
+		(pts
 			(xy 168.91 102.87) (xy 168.91 134.62)
 		)
 		(stroke
@@ -1332,6 +1564,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 156.21) (xy 149.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72d3866-4c7c-40f2-8295-37b4d9700e81")
+	)
+	(wire
+		(pts
 			(xy 83.82 123.19) (xy 116.84 123.19)
 		)
 		(stroke
@@ -1339,6 +1581,16 @@
 			(type default)
 		)
 		(uuid "c957a4ed-cf34-491a-95c5-9e96b1bdd2ef")
+	)
+	(wire
+		(pts
+			(xy 48.26 87.63) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb58cfda-8cba-4546-966b-b15802df5189")
 	)
 	(wire
 		(pts
@@ -1359,6 +1611,26 @@
 			(type default)
 		)
 		(uuid "cec2451d-69f9-4d39-9cca-7dec4f8ec2e2")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc499b7-c090-4958-9ef6-c4f6e866396c")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1798b15-29e4-4408-83e1-674f32753637")
 	)
 	(wire
 		(pts
@@ -1511,7 +1783,7 @@
 		(uuid "faa8568f-5679-40ea-acac-b9967f9ebea8")
 	)
 	(symbol
-		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(lib_id "Leica-G9ii-Symbols:SD_Card_Socket_UHS2")
 		(at 60.96 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -1537,7 +1809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
+		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_Extender"
 			(at 52.07 64.262 0)
 			(effects
 				(font
@@ -1546,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
+		(property "Datasheet" ""
 			(at 61.468 92.202 0)
 			(effects
 				(font
@@ -1615,6 +1887,15 @@
 		(pin "13"
 			(uuid "eaa02daf-8b76-4ea2-84c7-63c3f45ecd00")
 		)
+		(pin "WP"
+			(uuid "c3b837e3-4d2d-42c8-b536-193a09e24348")
+		)
+		(pin "COM"
+			(uuid "d2eb627a-3b99-4031-8fb9-1a30c17e3e4e")
+		)
+		(pin "CD"
+			(uuid "f639bd63-17f2-48f7-a1c2-7899fcbbe37e")
+		)
 		(instances
 			(project ""
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -1625,7 +1906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(lib_id "Leica-G9ii-Symbols:SD_Card_Socket_UHS2")
 		(at 139.7 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1728,6 +2009,15 @@
 		(pin "12"
 			(uuid "82b31c43-5dd2-4f7b-ae3e-c98979c8e167")
 		)
+		(pin "WP"
+			(uuid "f8088737-cd24-4736-b9cd-171874708a2d")
+		)
+		(pin "CD"
+			(uuid "847e0d98-b9cd-4d22-9c20-58c44c255cbc")
+		)
+		(pin "COM"
+			(uuid "5f2dac91-03a2-43fd-9694-7eeeb2f31172")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -1738,7 +2028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(lib_id "Leica-G9ii-Symbols:SD_Card_Socket_UHS2")
 		(at 60.96 135.89 0)
 		(mirror y)
 		(unit 1)
@@ -1764,7 +2054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_HTK_AXA573062"
+		(property "Footprint" "Leica-G9ii:SD_Card_Socket_UHS-II_Extender"
 			(at 52.07 139.192 0)
 			(effects
 				(font
@@ -1773,7 +2063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.convict.lu/pdf/ProdManualSDCardv1.9.pdf"
+		(property "Datasheet" ""
 			(at 61.468 167.132 0)
 			(effects
 				(font
@@ -1842,6 +2132,15 @@
 		(pin "12"
 			(uuid "580e278e-26e7-460f-9333-b9aab96cbab6")
 		)
+		(pin "COM"
+			(uuid "a0c0e5a8-c20d-462d-9466-e3eb76f461d7")
+		)
+		(pin "WP"
+			(uuid "ef4f8ec3-5999-44cf-a8a4-db13ff6f10ec")
+		)
+		(pin "CD"
+			(uuid "a89e6866-842b-4c42-8eac-9bd9ccdc03c2")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -1852,7 +2151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Leica-G9ii-Symbols:SD_Card_UHS2")
+		(lib_id "Leica-G9ii-Symbols:SD_Card_Socket_UHS2")
 		(at 138.43 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1954,6 +2253,15 @@
 		)
 		(pin "16"
 			(uuid "591e2154-c2f0-456a-a192-97275fc44632")
+		)
+		(pin "COM"
+			(uuid "dc908ebb-cedb-4539-95ae-92f199e56d66")
+		)
+		(pin "WP"
+			(uuid "094ecfc1-873f-4056-afa1-c51d65874c4a")
+		)
+		(pin "CD"
+			(uuid "2b896919-bc23-4379-bd97-5a8c8de9a84a")
 		)
 		(instances
 			(project ""
