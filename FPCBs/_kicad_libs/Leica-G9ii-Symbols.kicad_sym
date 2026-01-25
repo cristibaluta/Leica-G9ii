@@ -705,6 +705,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 12.7 20.32 270)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 12.7 -20.32 90)
 				(length 2.54)

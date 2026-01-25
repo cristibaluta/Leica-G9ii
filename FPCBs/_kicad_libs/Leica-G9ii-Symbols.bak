@@ -669,7 +669,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -5.08 -20.32 90)
 				(length 2.54)
 				(name "COMMON"
@@ -687,7 +687,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 10.16 -20.32 90)
 				(length 2.54)
 				(name "WRITE_PROTECT"
@@ -705,7 +705,25 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
+				(at 12.7 20.32 270)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 12.7 -20.32 90)
 				(length 2.54)
 				(name "CARD_DETECT"

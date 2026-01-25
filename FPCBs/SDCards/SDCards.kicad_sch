@@ -418,6 +418,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 12.7 20.32 270)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 12.7 -20.32 90)
 					(length 2.54)
@@ -584,7 +602,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SD1 - external"
+	(text "SD2 - external"
 		(exclude_from_sim no)
 		(at 195.58 133.096 0)
 		(effects
@@ -594,7 +612,7 @@
 		)
 		(uuid "17d18d10-c996-476f-ba64-5bc8046d7202")
 	)
-	(text "SD2 - internal soldered"
+	(text "SD1 - internal soldered"
 		(exclude_from_sim no)
 		(at 197.612 57.404 0)
 		(effects
@@ -615,6 +633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "645e79ca-6d3b-46b8-80cf-a4fc9d63559d")
+	)
+	(junction
+		(at 48.26 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cff9636-2563-4093-9478-03f623bfdb4c")
 	)
 	(junction
 		(at 66.04 85.09)
@@ -654,6 +678,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 40.64) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0746d50b-9a18-4501-b258-ecf6e80d73dc")
+	)
+	(wire
+		(pts
 			(xy 166.37 54.61) (xy 162.56 54.61)
 		)
 		(stroke
@@ -681,6 +715,16 @@
 			(type default)
 		)
 		(uuid "0931932f-6670-43cb-9282-a6dce1fc9c36")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4d292e-7271-423e-adcf-2e8760562f63")
 	)
 	(wire
 		(pts
@@ -991,6 +1035,16 @@
 			(type default)
 		)
 		(uuid "4ab73502-fa22-45cb-a77d-c8bda7ea4e63")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 48.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4f5ec2-63e6-4fd0-8b52-558f81b428d6")
 	)
 	(wire
 		(pts
@@ -1504,6 +1558,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 38.1) (xy 20.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb67750f-bc17-4fec-b90a-fdebb07272ce")
+	)
+	(wire
+		(pts
 			(xy 152.4 162.56) (xy 152.4 156.21)
 		)
 		(stroke
@@ -1551,6 +1615,16 @@
 			(type default)
 		)
 		(uuid "c0e9e605-b430-42f2-8b23-60e8d61bff59")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49e557e-b1ab-43ff-9c50-dbd92a1a8c44")
 	)
 	(wire
 		(pts
@@ -1734,6 +1808,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 93.98) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47db791-aca0-44ba-95e2-ec0445baefd2")
+	)
+	(wire
+		(pts
 			(xy 168.91 62.23) (xy 162.56 62.23)
 		)
 		(stroke
@@ -1741,6 +1825,16 @@
 			(type default)
 		)
 		(uuid "f631e651-bf72-4d05-ac9f-11c634a71efe")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.1) (xy 20.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66163a4-7e16-469f-ba04-1e0474948081")
 	)
 	(wire
 		(pts
@@ -1801,7 +1895,7 @@
 				)
 			)
 		)
-		(property "Value" "SD_Card_Device"
+		(property "Value" "SD1"
 			(at 60.325 40.64 0)
 			(effects
 				(font
@@ -1896,6 +1990,9 @@
 		(pin "CD"
 			(uuid "f639bd63-17f2-48f7-a1c2-7899fcbbe37e")
 		)
+		(pin "SH"
+			(uuid "05fd3811-8a33-45dd-8900-ff50c7a0f783")
+		)
 		(instances
 			(project ""
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -1923,7 +2020,7 @@
 				)
 			)
 		)
-		(property "Value" "SD_Card_Device"
+		(property "Value" "SD2"
 			(at 140.335 115.57 0)
 			(effects
 				(font
@@ -2018,6 +2115,9 @@
 		(pin "COM"
 			(uuid "5f2dac91-03a2-43fd-9694-7eeeb2f31172")
 		)
+		(pin "SH"
+			(uuid "be85a3dc-e1a3-4632-aa68-5c8c810a2231")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -2046,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Value" "SD_Card_Device"
+		(property "Value" "SD2"
 			(at 60.325 115.57 0)
 			(effects
 				(font
@@ -2141,6 +2241,9 @@
 		(pin "CD"
 			(uuid "a89e6866-842b-4c42-8eac-9bd9ccdc03c2")
 		)
+		(pin "SH"
+			(uuid "bbbc5fe7-a38e-46d4-80ad-d9ea69585b26")
+		)
 		(instances
 			(project "SDCards"
 				(path "/f450cd19-0017-425d-8e4e-bf2c41c6b1d3"
@@ -2168,7 +2271,7 @@
 				)
 			)
 		)
-		(property "Value" "SD_Card_Device"
+		(property "Value" "SD1"
 			(at 139.065 40.64 0)
 			(effects
 				(font
@@ -2262,6 +2365,9 @@
 		)
 		(pin "CD"
 			(uuid "2b896919-bc23-4379-bd97-5a8c8de9a84a")
+		)
+		(pin "SH"
+			(uuid "e3d9ee77-f177-4440-bf31-5f5a07d51320")
 		)
 		(instances
 			(project ""
