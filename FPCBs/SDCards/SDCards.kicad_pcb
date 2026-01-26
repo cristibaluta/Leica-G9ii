@@ -80,10 +80,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -668,7 +668,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "01093fe2-0fbc-4aac-9260-c85225a8b2c4")
+			(uuid "0d7d0bd4-9f44-48d8-86a4-a04ff5c4a722")
 		)
 		(pad "SH" thru_hole rect
 			(at -8.067647 -16 90)
@@ -679,7 +679,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "01093fe2-0fbc-4aac-9260-c85225a8b2c4")
+			(uuid "36c2d12b-67ab-49da-899d-78d3fe78cd34")
 		)
 		(pad "SH" thru_hole rect
 			(at 8.067647 -16 90)
@@ -690,7 +690,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "01093fe2-0fbc-4aac-9260-c85225a8b2c4")
+			(uuid "32a7be6d-7e49-4eaf-aac9-d852ff25a72b")
 		)
 		(pad "SH" thru_hole rect
 			(at 14.1 -14.9 90)
@@ -701,7 +701,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "01093fe2-0fbc-4aac-9260-c85225a8b2c4")
+			(uuid "ae48c136-993c-4891-bc45-82bdd8093112")
 		)
 		(pad "SH" thru_hole rect
 			(at 14.1 8.9 90)
@@ -712,7 +712,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "01093fe2-0fbc-4aac-9260-c85225a8b2c4")
+			(uuid "e76d7273-da46-4306-a029-2afd2ef9d28a")
 		)
 		(pad "WP" thru_hole rect
 			(at -14.1 5.62 90)
@@ -1780,7 +1780,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91ba3241-d250-44c0-ac72-f8ffdb690a27")
+			(uuid "6d2cb829-6a87-4d2d-92b1-46a62a72d050")
 		)
 		(pad "SH" thru_hole rect
 			(at -8.067647 -16 90)
@@ -1791,7 +1791,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91ba3241-d250-44c0-ac72-f8ffdb690a27")
+			(uuid "21a06a9b-41eb-4623-95d6-77b9b3cd8bf5")
 		)
 		(pad "SH" thru_hole rect
 			(at 8.067647 -16 90)
@@ -1802,7 +1802,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91ba3241-d250-44c0-ac72-f8ffdb690a27")
+			(uuid "57dd8b0b-92c7-412f-9899-1e64359992f0")
 		)
 		(pad "SH" thru_hole rect
 			(at 14.1 -14.9 90)
@@ -1813,7 +1813,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91ba3241-d250-44c0-ac72-f8ffdb690a27")
+			(uuid "2002de99-8bc5-42cb-81e7-eb055d266b3a")
 		)
 		(pad "SH" thru_hole rect
 			(at 14.1 8.9 90)
@@ -1824,7 +1824,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "91ba3241-d250-44c0-ac72-f8ffdb690a27")
+			(uuid "40268f1e-b493-4bf6-b029-9bf263ec7cc8")
 		)
 		(pad "WP" thru_hole rect
 			(at -14.1 5.62 90)
@@ -2414,7 +2414,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b728363d-75aa-4c97-8947-c9ee3fdee1a3")
+			(uuid "8eba6a3c-b028-444d-98a5-2162ad4a27f2")
 		)
 		(pad "SH" smd rect
 			(at -8.067647 16 180)
@@ -2423,7 +2423,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b728363d-75aa-4c97-8947-c9ee3fdee1a3")
+			(uuid "a06f1e03-c870-4683-a8f7-3d4b04ab2b4c")
 		)
 		(pad "SH" smd rect
 			(at 8.067647 16 180)
@@ -2432,7 +2432,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b728363d-75aa-4c97-8947-c9ee3fdee1a3")
+			(uuid "aef7d33a-c85a-4fef-b61c-b7ebce05f1ac")
 		)
 		(pad "SH" smd rect
 			(at 14.8 14.9 180)
@@ -2441,7 +2441,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b728363d-75aa-4c97-8947-c9ee3fdee1a3")
+			(uuid "749aca08-c708-4bd9-8e3e-77af41ef588d")
 		)
 		(pad "SH" smd rect
 			(at 15.4 -8.9 180)
@@ -2450,7 +2450,7 @@
 			(net 37 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "b728363d-75aa-4c97-8947-c9ee3fdee1a3")
+			(uuid "d88bf7d9-8e46-44b0-b581-b2b5890f08cc")
 		)
 		(pad "WP" smd rect
 			(at -14.5 -5.62 180)
