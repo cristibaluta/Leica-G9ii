@@ -54,6 +54,28 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -1.13 0)
+		(end -0.63 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3af9d00e-3122-41b6-bd07-371b42e78b96")
+	)
+	(fp_circle
+		(center 1.13 0)
+		(end 1.63 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ad8b7ec3-c88c-46f0-af63-ca1e3f7fd9ea")
+	)
 	(fp_line
 		(start -2.5 -2.1)
 		(end -2.5 2.1)
