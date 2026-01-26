@@ -3966,15 +3966,65 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "S 1-2\nC 1--\nM 1-3"
+	(text "PLAY"
 		(exclude_from_sim no)
-		(at 275.082 131.064 0)
+		(at 98.298 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30530eff-8fdf-434c-988e-051e76f66d8c")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 74.93 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37b0b14c-fdfd-4b01-be0e-448229884863")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 98.044 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "753f8bee-6df3-403f-81ac-3f753cf45a0b")
+	)
+	(text "S 1-3\nC 1--\nM 1-2"
+		(exclude_from_sim no)
+		(at 271.78 131.064 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "91f1a61d-6f6e-476b-9e8e-24aacaeabc26")
+	)
+	(text "M"
+		(exclude_from_sim no)
+		(at 74.93 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6a7cbf9-2b4b-4e70-9c4b-4419cfac17fa")
+	)
+	(text "LVF"
+		(exclude_from_sim no)
+		(at 97.79 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd9b6eac-b576-4460-8cd1-5004a151ab06")
 	)
 	(junction
 		(at 88.9 154.94)
@@ -4122,16 +4172,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 128.27) (xy 265.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03aad37a-6753-4cea-ba16-2d31605b6fc6")
-	)
-	(wire
-		(pts
 			(xy 172.72 107.95) (xy 114.3 107.95)
 		)
 		(stroke
@@ -4202,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 128.27) (xy 265.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1257fd7e-cb99-439f-89fd-69ad73a9e5e7")
+	)
+	(wire
+		(pts
 			(xy 88.9 146.05) (xy 88.9 154.94)
 		)
 		(stroke
@@ -4262,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 133.35) (xy 242.57 133.35)
+			(xy 233.68 133.35) (xy 243.84 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4352,13 +4402,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 138.43) (xy 269.24 138.43)
+			(xy 266.7 133.35) (xy 265.43 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "258506df-a0d3-46d5-9481-3c0624c5fd03")
+		(uuid "22d669a5-816d-49c9-ad7f-57ac1d42d082")
 	)
 	(wire
 		(pts
@@ -4379,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "260fc32e-2416-47d0-935d-9e48687f2c72")
-	)
-	(wire
-		(pts
-			(xy 240.03 135.89) (xy 240.03 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26385906-0f18-40c1-b9dc-96c24378d41c")
 	)
 	(wire
 		(pts
@@ -4532,6 +4572,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 133.35) (xy 266.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407df29a-fddf-4599-9b95-fe3b731951ab")
+	)
+	(wire
+		(pts
 			(xy 163.83 77.47) (xy 172.72 77.47)
 		)
 		(stroke
@@ -4652,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 135.89) (xy 265.43 135.89)
+			(xy 243.84 119.38) (xy 266.7 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4812,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 135.89) (xy 240.03 135.89)
+			(xy 233.68 135.89) (xy 266.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5192,16 +5242,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 138.43) (xy 269.24 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5785b1-ba98-49d1-b49a-4536724637ba")
-	)
-	(wire
-		(pts
 			(xy 144.78 57.15) (xy 147.32 57.15)
 		)
 		(stroke
@@ -5259,6 +5299,16 @@
 			(type default)
 		)
 		(uuid "b6912338-25c0-4d92-92d3-0fb0796545ce")
+	)
+	(wire
+		(pts
+			(xy 266.7 119.38) (xy 266.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9988bd6-3b8a-4e1f-8235-665afb65eb5a")
 	)
 	(wire
 		(pts
@@ -5442,16 +5492,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 135.89) (xy 265.43 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf5fced5-6140-431a-9167-954cb2859d27")
-	)
-	(wire
-		(pts
 			(xy 233.68 154.94) (xy 266.7 154.94)
 		)
 		(stroke
@@ -5502,7 +5542,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 133.35) (xy 242.57 135.89)
+			(xy 243.84 133.35) (xy 243.84 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6551,10 +6591,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70b6d3df-1003-471e-bf4a-0bdc6d1ecb0e")
 		(property "Reference" "J5"
-			(at 96.52 101.5999 0)
+			(at 92.456 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6602,7 @@
 			)
 		)
 		(property "Value" "From LCD"
-			(at 96.52 104.1399 0)
+			(at 90.17 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
