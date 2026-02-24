@@ -82,7 +82,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55d55555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -2301,6 +2301,17 @@
 		(layer "User.9")
 		(uuid "a8181425-235d-49b2-9de9-55dc75c8239a")
 	)
+	(gr_circle
+		(center 117 98.2)
+		(end 117.8 98.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "c56b04d8-1823-4596-a6f8-af942f2eae9b")
+	)
 	(gr_line
 		(start 168.55 87.55)
 		(end 168.55 87.13)
@@ -2321,6 +2332,17 @@
 		(layer "User.9")
 		(uuid "e5ba6d06-847e-4f94-9f8b-bada2a58a54d")
 	)
+	(gr_circle
+		(center 100 98.2)
+		(end 100.8 98.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "e8f206a7-bae6-409c-9ae7-4a6328e51dbd")
+	)
 	(gr_line
 		(start 167.55 94.65)
 		(end 167.55 95.6)
@@ -2330,6 +2352,19 @@
 		)
 		(layer "User.9")
 		(uuid "f46767c4-4818-4f6f-964a-bab1964e83fe")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 136.41 100.62 0)
+		(layer "F.SilkS")
+		(uuid "855dc84f-8d13-4a34-ae56-2ec4fa3a363c")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom)
+		)
 	)
 	(segment
 		(start 112.26 97.26)

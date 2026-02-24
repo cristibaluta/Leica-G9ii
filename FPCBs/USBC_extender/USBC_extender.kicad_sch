@@ -5,14 +5,14 @@
 	(uuid "8dee2dc3-5e77-46cf-98f4-53e3186b6bc6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Plug"
+		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "J"
 				(at -10.16 29.21 0)
 				(effects
 					(font
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug"
+			(property "Value" "USB_C_Receptacle"
 				(at 10.16 29.21 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type-C Plug connector"
+			(property "Description" "USB Full-Featured Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus"
+			(property "ki_keywords" "usb universal serial bus type-C full-featured"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_0_0"
+			(symbol "USB_C_Receptacle_0_0"
 				(rectangle
 					(start -0.254 -35.56)
 					(end 0.254 -34.544)
@@ -132,8 +132,30 @@
 					)
 				)
 				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 7.874)
 					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 5.334)
+					(end 9.144 4.826)
 					(stroke
 						(width 0)
 						(type default)
@@ -253,7 +275,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_0_1"
+			(symbol "USB_C_Receptacle_0_1"
 				(rectangle
 					(start -10.16 27.94)
 					(end 10.16 -35.56)
@@ -373,7 +395,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_1_1"
+			(symbol "USB_C_Receptacle_1_1"
 				(circle
 					(center -2.54 1.143)
 					(radius 0.635)
@@ -626,7 +648,7 @@
 				(pin bidirectional line
 					(at 15.24 20.32 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -644,7 +666,7 @@
 				(pin bidirectional line
 					(at 15.24 17.78 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,6 +700,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "D+"
@@ -688,6 +728,24 @@
 						)
 					)
 					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -879,6 +937,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 73.66 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e3e8a9-87d6-4662-8d7f-c62c476710d2")
+	)
+	(junction
+		(at 129.54 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2010c70-131f-433e-962a-19548950a676")
+	)
 	(wire
 		(pts
 			(xy 88.9 104.14) (xy 114.3 104.14)
@@ -921,6 +991,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db87dea-d15b-4f7e-bae9-c88fdcca21da")
+	)
+	(wire
+		(pts
 			(xy 88.9 76.2) (xy 114.3 76.2)
 		)
 		(stroke
@@ -928,6 +1008,16 @@
 			(type default)
 		)
 		(uuid "758a3ddf-8e31-4b66-91dc-abbbaa51519e")
+	)
+	(wire
+		(pts
+			(xy 73.66 139.7) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c35f91-c405-4df4-8ffe-ee469be39ab3")
 	)
 	(wire
 		(pts
@@ -951,6 +1041,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8336d0e5-4155-4460-82ab-fe6a0e33a953")
+	)
+	(wire
+		(pts
 			(xy 88.9 78.74) (xy 114.3 78.74)
 		)
 		(stroke
@@ -961,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 137.16 142.24)
+			(xy 137.16 137.16) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1011,17 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 129.54 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af95ef2f-92d6-43f6-abfc-7227cdf68bb8")
-	)
-	(wire
-		(pts
-			(xy 66.04 137.16) (xy 66.04 142.24)
+			(xy 66.04 137.16) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1151,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 142.24) (xy 137.16 142.24)
+			(xy 129.54 139.7) (xy 137.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1150401-d05a-46bd-8d05-ea1e23cc7f16")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 73.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1190,7 @@
 		(uuid "f3673bed-479f-4240-85d7-6adc1ccbbcea")
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug")
+		(lib_id "Connector:USB_C_Receptacle")
 		(at 73.66 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1115,7 +1215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:FPC_Mainboard_USBC-12Pins"
+		(property "Footprint" "Leica-G9ii:Connector_USBC-PCB-24Pins"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -1133,7 +1233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Plug connector"
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -1211,6 +1311,12 @@
 		(pin "A1"
 			(uuid "a8306b1a-1921-4907-859c-8e159d01cba4")
 		)
+		(pin "B7"
+			(uuid "d3ebf993-4e46-418a-8c51-0d6718bf6b57")
+		)
+		(pin "B6"
+			(uuid "41c5e5f8-9cf4-453c-98e4-79137cbfe8dc")
+		)
 		(instances
 			(project ""
 				(path "/8dee2dc3-5e77-46cf-98f4-53e3186b6bc6"
@@ -1221,7 +1327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug")
+		(lib_id "Connector:USB_C_Receptacle")
 		(at 129.54 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -1249,7 +1355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Leica-G9ii:Connector_USBC-12Pins"
+		(property "Footprint" "Leica-G9ii:Connector_USBC-Receptacle-24Pins"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -1267,7 +1373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Plug connector"
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
 			(at 129.54 96.52 0)
 			(effects
 				(font
@@ -1344,6 +1450,12 @@
 		)
 		(pin "A1"
 			(uuid "7a4ce4e5-10f1-4e81-b08c-13d9bc2745d8")
+		)
+		(pin "B7"
+			(uuid "3957854b-cc83-4635-a305-16cb309b560f")
+		)
+		(pin "B6"
+			(uuid "60875ade-6822-417d-847d-d0e6938e54d6")
 		)
 		(instances
 			(project ""
